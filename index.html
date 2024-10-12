@@ -1,0 +1,439 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap" rel="stylesheet">
+    <!-- 引入Inter字体 -->
+    <title>IAFEnvoy's Mods</title>
+    <link rel="stylesheet" href="index.css">
+    <script src="index.js"></script>
+</head>
+
+<body>
+    <h1>IAFEnvoy's Mods</h1>
+    <div class="link-group">
+        <div>Sponsor Me: </div>
+        &nbsp;&nbsp;
+        <a href="https://www.patreon.com/IAFEnvoy" target="_blank">
+            <img src="https://img.shields.io/badge/Patreon-F96854?style=for-the-badge&logo=patreon&logoColor=white"
+                alt="Patreon">
+        </a>
+        &nbsp;&nbsp;
+        <a href="https://ko-fi.com/iafenvoy" target="_blank">
+            <img src="https://img.shields.io/badge/Ko--fi-F16061?style=for-the-badge&logo=ko-fi&logoColor=white"
+                alt="Ko-Fi">
+        </a>
+    </div>
+    <div class="link-group">
+        <div>Useful Links: </div>
+        &nbsp;&nbsp;
+        <a href="https://discord.gg/NDzz2upqAk" target="_blank">
+            <img src="https://img.shields.io/badge/Discord-7289DA?style=for-the-badge&logo=discord&logoColor=white"
+                alt="Discord">
+        </a>
+        &nbsp;&nbsp;
+        <a href="https://github.com/IAFEnvoy" target="_blank">
+            <img src="https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white"
+                alt="Github">
+        </a>
+        &nbsp;&nbsp;
+        <a href="https://www.youtube.com/@iafenvoy" target="_blank">
+            <img src="https://img.shields.io/badge/YouTube-FF0000?style=for-the-badge&logo=youtube&logoColor=white"
+                alt="Youtube">
+        </a>
+    </div>
+    <br>
+    <h2>Mod Porting</h2>
+    <div class="container">
+        <div class="item" onclick="openModal('IceAndFire Fabric','The unofficial version of mod Ice and Fire','./logos/mods/iceandfire.webp',
+            {
+                gh:'https://github.com/ArkTechMC/IceAndFire-Fabric',
+                cf:'https://www.curseforge.com/minecraft/mc-mods/iceandfire-fabric',
+                mr:'https://modrinth.com/mod/iceandfire-fabric'
+            },
+            ['Adventure','Mobs','Equipment','WorldGen'])">
+            <img class="logo-img" src="./logos/mods/iceandfire.webp" alt="iceandfire">
+            <h3>IceAndFire Fabric</h3>
+            <div class="tags">
+                <span style="background-color:yellowgreen;">1.20.1</span>
+                <span style="background-color:#dad1b4;">Fabric</span>
+                <span style="background-color:green;">Maintaining</span>
+            </div>
+        </div>
+        <div class="item" onclick="openModal('Ice And Fire Patcher','Some simple patch for Ice And Fire','./logos/mods/iafpatcher.webp',
+            {
+                gh:'https://github.com/ArkTechMC/IAF-Patcher',
+                cf:'https://www.curseforge.com/minecraft/mc-mods/ice-and-fire-patcher',
+                mr:'https://modrinth.com/mod/iaf-patcher'
+            },
+            ['Mobs','Utility'])">
+            <img class="logo-img" src="./logos/mods/iafpatcher.webp" alt="iafpatcher">
+            <h3>Ice And Fire Patcher</h3>
+            <div class="tags">
+                <span style="background-color:yellowgreen;">1.19.2, 1.20.1</span>
+                <span style="background-color:darkslategray;">Forge</span>
+                <span style="background-color:orange;">NeoForge</span>
+                <span style="background-color:green;">Maintaining</span>
+            </div>
+        </div>
+        <div class="item" onclick="openModal('Mowzie\'s Mobs Unofficial', 'The official authorized fabric port of Mowzie\'s Mobs', './logos/mods/mmobs.webp', 
+            {
+                gh:'https://github.com/ArkTechMC/MowziesMobs-Fabric',
+                cf:'https://www.curseforge.com/minecraft/mc-mods/mowzies-mobs-fabric',
+                mr:'https://modrinth.com/mod/mowzies-mobs-fabric'
+            },
+            ['Adventure','Mobs','WorldGen'])">
+            <img class="logo-img" src="./logos/mods/mmobs.webp" alt="mmobs">
+            <h3>Mowzie's Mobs Unofficial</h3>
+            <div class="tags">
+                <span style="background-color:yellowgreen;">1.20.1</span>
+                <span style="background-color:#dad1b4;">Fabric</span>
+                <span style="background-color:yellow;">Early Beta</span>
+            </div>
+        </div>
+        <div class="item" onclick="openModal('Netherite Extension','The high version fabric port of Netherite Plus Mod','./logos/mods/netherite.webp',
+            {
+                gh:'https://github.com/ArkTechMC/NetheriteExtension-Fabric',
+                cf:'https://www.curseforge.com/minecraft/mc-mods/netherite-extension',
+                mr:'https://modrinth.com/mod/netheriteextension'
+            },
+            ['Equipment','Utility'])">
+            <img class="logo-img" src="./logos/mods/netherite.webp" alt="netherite">
+            <h3>Netherite Extension</h3>
+            <div class="tags">
+                <span style="background-color:yellowgreen;">1.19.4, 1.20.1</span>
+                <span style="background-color:#dad1b4;">Fabric</span>
+                <span style="background-color:red;">Out of Maintainence</span>
+            </div>
+        </div>
+        <div class="item" onclick="openModal('Avaritia Reborn','Avaritia Mod for Fabric','./logos/mods/avaritia.webp',
+            {
+                gh:'https://github.com/ArkTechMC/AvaritiaReborn',
+                cf:'https://www.curseforge.com/minecraft/mc-mods/avaritiareborn',
+                mr:'https://modrinth.com/mod/avaritiareborn'
+            },
+            ['Equipment','Utility'])">
+            <img class="logo-img" src="./logos/mods/avaritia.webp" alt="avaritia">
+            <h3>Avaritia Reborn</h3>
+            <div class="tags">
+                <span style="background-color:yellowgreen;">1.20.1</span>
+                <span style="background-color:#dad1b4;">Fabric</span>
+                <span style="background-color:red;">Out of Maintainence</span>
+            </div>
+        </div>
+    </div>
+    <h2>Animation Fan Work</h2>
+    <div class="container">
+        <div class="item" onclick="openModal('Songs of War','The Songs of War Animation Mod','./logos/mods/sow.webp',
+            {
+                gh:'https://github.com/ArkTechMC/SongsOfWar',
+                cf:'https://www.curseforge.com/minecraft/mc-mods/songs-of-war',
+                mr:'https://modrinth.com/mod/songs-of-war'
+            },
+            ['Adventure','Mobs','Equipment','RPG'])">
+            <img class="logo-img" src="./logos/mods/sow.webp" alt="sow">
+            <h3>Songs of War</h3>
+            <div class="tags">
+                <span style="background-color:yellowgreen;">1.20.1</span>
+                <span style="background-color:#dad1b4;">Fabric</span>
+                <span style="background-color:darkslategray;">Forge</span>
+                <span style="background-color:orange;">NeoForge</span>
+                <span style="background-color:aqua;">Developing</span>
+            </div>
+        </div>
+        <div class="item" onclick="openModal('Songs of Origins','Integration between Origins and Songs of War','./logos/mods/soo.webp',
+            {
+                gh:'https://github.com/ArkTechMC/SongsOfOrigins',
+                cf:'https://www.curseforge.com/minecraft/mc-mods/songs-of-origins',
+                mr:'https://modrinth.com/mod/songs-of-origins'
+            },
+            ['Adventure','RPG'])">
+            <img class="logo-img" src="./logos/mods/soo.webp" alt="soo">
+            <h3>Songs of Origins</h3>
+            <div class="tags">
+                <span style="background-color:yellowgreen;">1.20.1</span>
+                <span style="background-color:#dad1b4;">Fabric</span>
+                <span style="background-color:green;">Maintaining</span>
+            </div>
+        </div>
+        <div class="item" onclick="openModal('Songs of Power','Add song abilities from Songs of War Animation.','./logos/mods/sop.webp',
+            {
+                gh:'https://github.com/ArkTechMC/SongsOfPower',
+                cf:'https://www.curseforge.com/minecraft/mc-mods/songs-of-power',
+                mr:'https://modrinth.com/mod/songs-of-power'
+            },
+            ['Adventure','Magic'])">
+            <img class="logo-img" src="./logos/mods/sop.webp" alt="sop">
+            <h3>Songs of Power</h3>
+            <div class="tags">
+                <span style="background-color:yellowgreen;">1.20.1</span>
+                <span style="background-color:#dad1b4;">Fabric</span>
+                <span style="background-color:darkslategray;">Forge</span>
+                <span style="background-color:orange;">NeoForge</span>
+                <span style="background-color:aqua;">Developing</span>
+            </div>
+        </div>
+        <div class="item" onclick="openModal('Peas Delight','Peas! Comes from the countryside!','./logos/mods/peas.webp',
+            {
+                gh:'https://github.com/ArkTechMC/PeasDelight',
+            },
+            ['Adventure','Magic'])">
+            <img class="logo-img" src="./logos/mods/peas.webp" alt="peas">
+            <h3>Peas Delight</h3>
+            <div class="tags">
+                <span style="background-color:yellowgreen;">1.20.1</span>
+                <span style="background-color:#dad1b4;">Fabric</span>
+                <span style="background-color:pink;">Not Release Yet</span>
+            </div>
+        </div>
+        <div class="item" onclick="openModal('Rainimator Mod','Rainimator Minecraft Animation mod. @Rainimator @Rainolaguer','./logos/mods/rainimator.webp',
+            {
+                gh:'https://github.com/ArkTechMC/RainimatorMod',
+                cf:'https://www.curseforge.com/minecraft/mc-mods/rainimatormod',
+                mr:'https://modrinth.com/mod/rainimatormod'
+            },
+            ['Adventure','Magic','Mobs','Equipment'])">
+            <img class="logo-img" src="./logos/mods/rainimator.webp" alt="rainimator">
+            <h3>Rainimator Mod</h3>
+            <div class="tags">
+                <span style="background-color:yellowgreen;">1.20.1</span>
+                <span style="background-color:#dad1b4;">Fabric</span>
+                <span style="background-color:darkslategray;">Forge</span>
+                <span style="background-color:orange;">NeoForge</span>
+                <span style="background-color:magenta;">Low Priority</span>
+            </div>
+        </div>
+        <div class="item" onclick="openModal('Annoying Villagers','Add objects from Annoying Villagers animation','./logos/mods/av.webp',
+            {
+                gh:'https://github.com/ArkTechMC/AnnoyingVillagers',
+                cf:'https://www.curseforge.com/minecraft/mc-mods/annoying-villagers',
+                mr:'https://modrinth.com/mod/annoyingvillagers'
+            },
+            ['Adventure','Mobs','Equipment'])">
+            <img class="logo-img" src="./logos/mods/av.webp" alt="av">
+            <h3>Annoying Villagers</h3>
+            <div class="tags">
+                <span style="background-color:yellowgreen;">1.20.1</span>
+                <span style="background-color:#dad1b4;">Fabric</span>
+                <span style="background-color:darkslategray;">Forge</span>
+                <span style="background-color:orange;">NeoForge</span>
+                <span style="background-color:red;">Out of Maintainence</span>
+            </div>
+        </div>
+    </div>
+    <h2>Utility</h2>
+    <div class="container">
+        <div class="item" onclick="openModal('Tameable','Tame everything!','./logos/mods/tameable.webp',
+            {
+                gh:'https://github.com/ArkTechMC/Tameable',
+                cf:'https://www.curseforge.com/minecraft/mc-mods/tameable',
+                mr:'https://modrinth.com/mod/tameable'
+            },
+            ['Mobs','Utility'])">
+            <img class="logo-img" src="./logos/mods/tameable.webp" alt="tameable">
+            <h3>Tameable</h3>
+            <div class="tags">
+                <span style="background-color:yellowgreen;">1.20.1</span>
+                <span style="background-color:#dad1b4;">Fabric</span>
+                <span style="background-color:darkslategray;">Forge</span>
+                <span style="background-color:orange;">NeoForge</span>
+                <span style="background-color:green;">Maintaining</span>
+            </div>
+        </div>
+        <div class="item" onclick="openModal('Think Before Drop', 'Press Q twice before drop item', './logos/mods/tbd.webp', 
+            {
+                gh:'https://github.com/IAFEnvoy/ThinkBeforeDrop',
+                cf:'https://www.curseforge.com/minecraft/mc-mods/think-before-drop',
+                mr:'https://modrinth.com/mod/thinkbeforedrop'
+            },
+            ['Safety','Utility'])">
+            <img class="logo-img" src="./logos/mods/tbd.webp" alt="tbd">
+            <h3>Think Before Drop</h3>
+            <div class="tags">
+                <span style="background-color:yellowgreen;">1.16.5-1.21</span>
+                <span style="background-color:#dad1b4;">Fabric</span>
+                <span style="background-color:darkslategray;">Forge</span>
+                <span style="background-color:orange;">NeoForge</span>
+                <span style="background-color:magenta;">Low Priority</span>
+            </div>
+        </div>
+        <div class="item" onclick="openModal('Title Screen Mobs', 'Add mobs to title screen', './logos/mods/tsm.webp', 
+            {
+                gh:'https://github.com/ArkTechMC/TitleScreenMobs',
+                cf:'https://www.curseforge.com/minecraft/mc-mods/title-screen-mobs',
+                mr:'https://modrinth.com/mod/title-screen-mobs'
+            },
+            ['Utility'])">
+            <img class="logo-img" src="./logos/mods/tsm.webp" alt="tsm">
+            <h3>Title Screen Mobs</h3>
+            <div class="tags">
+                <span style="background-color:yellowgreen;">1.19.2-1.21</span>
+                <span style="background-color:#dad1b4;">Fabric</span>
+                <span style="background-color:darkslategray;">Forge</span>
+                <span style="background-color:orange;">NeoForge</span>
+                <span style="background-color:magenta;">Low Priority</span>
+            </div>
+        </div>
+        <div class="item" onclick="openModal('Global Gamerule', 'Set default game rules cross saves', './logos/mods/gamerule.webp', 
+            {
+                gh:'https://github.com/ArkTechMC/GlobalGameRule',
+                cf:'https://modrinth.com/mod/global-gamerule-fabric',
+                mr:'https://www.curseforge.com/minecraft/mc-mods/global-gamerule-fabric'
+            },
+            ['Utility'])">
+            <img class="logo-img" src="./logos/mods/gamerule.webp" alt="elb">
+            <h3>Global Gamerule</h3>
+            <div class="tags">
+                <span style="background-color:yellowgreen;">1.20.1</span>
+                <span style="background-color:#dad1b4;">Fabric</span>
+                <span style="background-color:red;">Out of Maintainence</span>
+            </div>
+        </div>
+        <div class="item" onclick="openModal('Early Loading Bar', 'Add a pre loading bar for fabric', './logos/mods/elb.webp', 
+            {
+                gh:'https://github.com/ArkTechMC/EarlyLoadingBar',
+                cf:'https://www.curseforge.com/minecraft/mc-mods/early-loading-bar',
+                mr:'https://modrinth.com/mod/early-loading-bar'
+            },
+            ['Utility'])">
+            <img class="logo-img" src="./logos/mods/elb.webp" alt="elb">
+            <h3>Early Loading Bar</h3>
+            <div class="tags">
+                <span style="background-color:yellowgreen;">1.14-1.21</span>
+                <span style="background-color:#dad1b4;">Fabric</span>
+                <span style="background-color:darkslategray;">Forge</span>
+                <span style="background-color:orange;">NeoForge</span>
+                <span style="background-color:magenta;">Low Priority</span>
+            </div>
+        </div>
+    </div>
+    <h2>Library</h2>
+    <div class="container">
+        <div class="item" onclick="openModal('Jupiter','A powerful, auto sync config library.','./logos/mods/jupiter.webp',
+                {
+                    gh:'https://github.com/ArkTechMC/Jupiter',
+                    cf:'https://www.curseforge.com/minecraft/mc-mods/jupiter',
+                    mr:'https://modrinth.com/mod/jupiter'
+                },
+                ['Utility'])">
+            <img class="logo-img" src="./logos/mods/jupiter.webp" alt="jupiter">
+            <h3>Jupiter</h3>
+            <div class="tags">
+                <span style="background-color:yellowgreen;">1.20.1</span>
+                <span style="background-color:#dad1b4;">Fabric</span>
+                <span style="background-color:darkslategray;">Forge</span>
+                <span style="background-color:orange;">NeoForge</span>
+                <span style="background-color:green;">Maintaining</span>
+            </div>
+        </div>
+        <div class="item" onclick="openModal('Uranus', 'A Library contains animation engine, object helper and so on. Partly based on LLibrary and Citadel.', './logos/mods/uranus.webp', 
+                {
+                    gh:'https://github.com/ArkTechMC/Uranus',
+                    cf:'https://www.curseforge.com/minecraft/mc-mods/uranus',
+                    mr:'https://modrinth.com/mod/uranus'
+                },
+                ['Utility'])">
+            <img class="logo-img" src="./logos/mods/uranus.webp" alt="uranus">
+            <h3>Uranus</h3>
+            <div class="tags">
+                <span style="background-color:yellowgreen;">1.20.1</span>
+                <span style="background-color:#dad1b4;">Fabric</span>
+                <span style="background-color:green;">Maintaining</span>
+            </div>
+        </div>
+        <div class="item" onclick="openModal('Neptune','Animation Fan Work Engine','./logos/mods/neptune.webp',
+                {
+                    gh:'https://github.com/ArkTechMC/Neptune',
+                    cf:'https://www.curseforge.com/minecraft/mc-mods/neptune-lib',
+                    mr:'https://modrinth.com/mod/neptune'
+                },
+                ['Utility'])">
+            <img class="logo-img" src="./logos/mods/neptune.webp" alt="neptune">
+            <h3>Neptune</h3>
+            <div class="tags">
+                <span style="background-color:yellowgreen;">1.20.1</span>
+                <span style="background-color:#dad1b4;">Fabric</span>
+                <span style="background-color:darkslategray;">Forge</span>
+                <span style="background-color:orange;">NeoForge</span>
+                <span style="background-color:aqua;">Developing</span>
+            </div>
+        </div>
+    </div>
+    <h2>Old Project</h2>
+    <div class="container">
+        <div class="item" onclick="openModal('Annotation Lib','The magic of annotations :)','./logos/mods/annotation.webp',
+            {
+                gh:'https://github.com/ArkTechMC/AnnotationLib',
+                cf:'https://www.curseforge.com/minecraft/mc-mods/annotationlib',
+                mr:'https://modrinth.com/mod/annotationlib'
+            },
+            ['Utility'])">
+            <img class="logo-img" src="./logos/mods/annotation.webp" alt="annotation">
+            <h3>Annotation Lib</h3>
+            <div class="tags">
+                <span style="background-color:yellowgreen;">1.20.1</span>
+                <span style="background-color:#dad1b4;">Fabric</span>
+                <span style="background-color:red;">Out of Maintainence</span>
+            </div>
+        </div>
+        <div class="item" onclick="openModal('Loading Manager','Show more loading info on the loading screen','./logos/mods/loadingmgr.webp',
+            {
+                gh:'https://github.com/IAFEnvoy/LoadingManager',
+                cf:'https://www.curseforge.com/minecraft/mc-mods/loading-manager',
+                mr:'https://modrinth.com/mod/loadingmgr'
+            },
+            ['Utility'])">
+            <img class="logo-img" src="./logos/mods/loadingmgr.webp" alt="loadingmgr">
+            <h3>Loading Manager</h3>
+            <div class="tags">
+                <span style="background-color:yellowgreen;">1.16.5, 1.17.1</span>
+                <span style="background-color:#dad1b4;">Fabric</span>
+                <span style="background-color:red;">Out of Maintainence</span>
+            </div>
+        </div>
+        <div class="item" onclick="openModal('Pendulum','A programming language for Minecraft','./logos/mods/pendulum.webp',
+            {
+                gh:'https://github.com/IAFEnvoy/Pendulum',
+                mr:'https://modrinth.com/mod/pendulum'
+            },
+            ['Utility'])">
+            <img class="logo-img" src="./logos/mods/pendulum.webp" alt="pendulum">
+            <h3>Pendulum</h3>
+            <div class="tags">
+                <span style="background-color:yellowgreen;">1.16.5</span>
+                <span style="background-color:#dad1b4;">Fabric</span>
+                <span style="background-color:red;">Out of Maintainence</span>
+            </div>
+        </div>
+    </div>
+    <!-- 模态框结构 -->
+    <div id="modal" class="modal">
+        <div class="modal-content">
+            <span class="close" onclick="closeModal()">&times;</span>
+            <div class="modal-header">
+                <img id="modalImage" src="" alt="物品图片">
+                <h2 id="modalTitle">物品标题</h2>
+            </div>
+            <div class="tags" id="modalTags"></div>
+            <div class="links">
+                <!-- 图标展示链接，左对齐 -->
+                <a id="githubLink" href="#" target="_blank">
+                    <img src="./logos/github.webp" alt="GitHub">
+                </a>
+                <a id="curseforgeLink" href="#" target="_blank">
+                    <img src="./logos/curseforge.webp" alt="Curseforge">
+                </a>
+                <a id="modrinthLink" href="#" target="_blank">
+                    <img src="./logos/modrinth.webp" alt="Modrinth">
+                </a>
+            </div>
+            <div class="description">
+                <p id="modalDescription">物品详细信息</p>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>

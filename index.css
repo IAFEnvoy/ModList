@@ -1,0 +1,204 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    user-select: none;
+}
+
+body {
+    font-family: 'Inter', sans-serif;
+    padding: 20px;
+    background-color: #f4f4f4;
+}
+
+h1,
+h2,
+h3 {
+    text-align: center;
+    margin-bottom: 30px;
+    color: #333;
+}
+
+.link-group {
+    justify-content: center;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+    display: flex;
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.item {
+    background-color: #fff;
+    border-radius: 16px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    width: calc(33.33% - 1px);
+    padding: 8px;
+    text-align: center;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    cursor: pointer;
+    transform: scale(0.7);
+    margin: 0;
+}
+
+.item:hover {
+    transform: translateY(-5px) scale(0.7);
+    box-shadow: 0 6px 15px rgba(0, 0, 0, 0.2);
+}
+
+.item img {
+    /* width: 100%;
+    height: auto;
+    aspect-ratio: 4/5; */
+    object-fit: cover;
+    border-radius: 12px;
+    transition: opacity 0.3s ease;
+}
+
+.item:hover img {
+    opacity: 0.8;
+}
+
+.logo-img{
+    display:inline-block;
+    height: 250px;
+}
+
+.item h3 {
+    margin: 10px 0 8px;
+    font-size: 1.1em;
+    color: #333;
+}
+
+.tags {
+    margin-top: 10px;
+}
+
+.tags span {
+    background-color: #007BFF;
+    color: #fff;
+    border-radius: 12px;
+    padding: 6px 12px;
+    margin: 5px;
+    font-size: 1em;
+    display: inline-block;
+    transition: background-color 0.3s ease;
+}
+
+.tags span:hover {
+    background-color: #0056b3;
+}
+
+@media (max-width: 768px) {
+    .item {
+        width: 90%;
+    }
+}
+
+/* 模态框样式 */
+.modal {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    backdrop-filter: blur(8px);
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.5);
+    opacity: 0;
+    transform: translateY(-20px);
+    transition: opacity 0.5s ease, transform 0.5s ease;
+}
+
+.modal.show {
+    display: flex;
+    opacity: 1;
+    transform: translateY(0);
+}
+
+.modal-content {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 16px;
+    width: 80%;
+    max-width: 600px;
+    position: relative;
+}
+
+.close {
+    color: #aaa;
+    position: absolute;
+    right: 20px;
+    top: 10px;
+    font-size: 28px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.close:hover,
+.close:focus {
+    color: #000;
+}
+
+/* 左上角图片和名称 */
+.modal-header {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.modal-header img {
+    width: 80px;
+    /* 调整图片大小 */
+    height: 80px;
+    /* 调整图片大小 */
+    aspect-ratio: 1/1;
+    object-fit: cover;
+    border-radius: 12px;
+    /* 增加圆角 */
+    margin-right: 20px;
+}
+
+.modal-header h2 {
+    margin: 0;
+    font-size: 1.5em;
+}
+
+/* 标签、图标链接、详细信息 */
+.tags,
+.links,
+.description {
+    margin-top: 20px;
+}
+
+.links {
+    display: flex;
+    align-items: center;
+    margin-top: 10px;
+}
+
+.links a {
+    margin-right: 10px;
+    align-items: center;
+}
+
+.links img {
+    width: 40px;
+    /* 正方形图标 */
+    height: 40px;
+    /* 正方形图标 */
+    transition: transform 0.3s ease;
+}
+
+.links img:hover {
+    transform: scale(1.2);
+}
