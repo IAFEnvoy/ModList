@@ -19,7 +19,7 @@ h3 {
     color: #333;
 }
 
-h4{
+h4 {
     color: lightgray;
 }
 
@@ -70,8 +70,8 @@ h4{
     opacity: 0.8;
 }
 
-.logo-img{
-    display:inline-block;
+.logo-img {
+    display: inline-block;
     height: 250px;
 }
 
@@ -205,4 +205,45 @@ h4{
 
 .links img:hover {
     transform: scale(1.2);
+}
+
+@media (prefers-color-scheme: dark) {
+    body {
+        background-color: #25272a;
+    }
+    
+    h1,
+    h2,
+    h3 {
+        color: #ddd;
+    }
+
+    .item h3 {
+        color: #ddd;
+    }
+    
+    h4 {
+        color: darkslategray;
+    }
+
+    div{
+        color: white;
+    }
+
+    .item {
+        background-color: #282c34;
+    }
+    
+    .modal-content {
+        background-color: #282c34;
+    }
+    
+    .close {
+        color: #666;
+    }
+    
+    .close:hover,
+    .close:focus {
+        color: #fff;
+    }
 }
