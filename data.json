@@ -76,6 +76,46 @@
                     "Fabric"
                 ],
                 "status": "Out of Maintainence"
+            },
+            {
+                "name": "Dragon Mounts: Sow Edition",
+                "description": "A fabric fork of Dragon Mounts: Legacy, for SoW modpack.",
+                "logo": "dm.webp",
+                "links": {
+                    "gh": "https://github.com/CodeOfArdonia/Dragon-Mounts-SoW-Edition",
+                    "cf": "https://www.curseforge.com/minecraft/mc-mods/dragon-mounts-sow-edition",
+                    "mr": "https://modrinth.com/mod/dragon-mounts-sow-edition"
+                },
+                "tags": [
+                    "Mobs"
+                ],
+                "version": [
+                    "1.20.1"
+                ],
+                "loader": [
+                    "Fabric"
+                ],
+                "status": "Maintaining"
+            },
+            {
+                "name": "Supporoform",
+                "description": "A fabric fork of Tinker's Construct/Hephaestus",
+                "logo": "supporoform.webp",
+                "links": {
+                    "gh": "https://github.com/CodeOfArdonia/Supporoform",
+                    "cf": "https://www.curseforge.com/minecraft/mc-mods/supporoform",
+                    "mr": "https://modrinth.com/mod/supporoform"
+                },
+                "tags": [
+                    "Mobs"
+                ],
+                "version": [
+                    "1.20.1"
+                ],
+                "loader": [
+                    "Fabric"
+                ],
+                "status": "Maintaining"
             }
         ]
     },
@@ -113,6 +153,31 @@
                 "status": "Low Priority"
             },
             {
+                "name": "Songs of War",
+                "description": "The Songs of War Animation Mod",
+                "logo": "sow.webp",
+                "links": {
+                    "gh": "https://github.com/CodeOfArdonia/SongsOfWar",
+                    "cf": "https://www.curseforge.com/minecraft/mc-mods/songs-of-war",
+                    "mr": "https://modrinth.com/mod/songs-of-war"
+                },
+                "tags": [
+                    "Adventure",
+                    "Mobs",
+                    "Equipment",
+                    "RPG"
+                ],
+                "version": [
+                    "1.20.1"
+                ],
+                "loader": [
+                    "Fabric",
+                    "Forge",
+                    "NeoForge"
+                ],
+                "status": "Developing"
+            },
+            {
                 "name": "Worlds Apart",
                 "description": "",
                 "logo": "worlds_apart.webp",
@@ -134,7 +199,172 @@
         ]
     },
     {
-        "title": "Utility",
+        "title": "Enhancement",
+        "display": {
+            "logo": true,
+            "status": true,
+            "modal": true
+        },
+        "items": [
+            {
+                "name": "Netherite Extension",
+                "description": "The high version fabric port of Netherite Plus Mod",
+                "logo": "netherite.webp",
+                "links": {
+                    "gh": "https://github.com/CodeOfArdonia/NetheriteExtension",
+                    "cf": "https://www.curseforge.com/minecraft/mc-mods/netherite-extension",
+                    "mr": "https://modrinth.com/mod/netheriteextension"
+                },
+                "tags": [
+                    "Equipment",
+                    "Utility"
+                ],
+                "version": [
+                    "1.19.4",
+                    "1.20.1",
+                    "1.20.4",
+                    "1.20.6",
+                    "1.21.1"
+                ],
+                "loader": [
+                    "Fabric",
+                    "Forge",
+                    "NeoForge"
+                ],
+                "status": "Maintaining"
+            },
+            {
+                "name": "Tameable",
+                "description": "Tame everything!",
+                "logo": "tameable.webp",
+                "links": {
+                    "gh": "https://github.com/CodeOfArdonia/Tameable",
+                    "cf": "https://www.curseforge.com/minecraft/mc-mods/tameable",
+                    "mr": "https://modrinth.com/mod/tameable"
+                },
+                "tags": [
+                    "Mobs",
+                    "Utility"
+                ],
+                "version": [
+                    "1.20.1"
+                ],
+                "loader": [
+                    "Fabric",
+                    "Forge",
+                    "NeoForge"
+                ],
+                "status": "Maintaining"
+            },
+            {
+                "name": "Tame Tools",
+                "description": "Additional tools for Tameable Mod",
+                "logo": "tame_tools.webp",
+                "links": {
+                    "gh": "https://github.com/CodeOfArdonia/TameTools",
+                    "cf": "https://www.curseforge.com/minecraft/mc-mods/tame-tools",
+                    "mr": "https://modrinth.com/mod/tame-tools"
+                },
+                "tags": [
+                    "Mobs",
+                    "Utility"
+                ],
+                "version": [
+                    "1.20.1"
+                ],
+                "loader": [
+                    "Fabric",
+                    "Forge",
+                    "NeoForge"
+                ],
+                "status": "Maintaining"
+            },
+            {
+                "name": "Mobs Banner",
+                "description": "Add decorative banners for almost all mobs",
+                "logo": "banner.webp",
+                "links": {
+                    "gh": "https://github.com/CodeOfArdonia/MobsBanner",
+                    "cf": "https://www.curseforge.com/minecraft/mc-mods/mobs-banner",
+                    "mr": "https://modrinth.com/mod/mobs-banner"
+                },
+                "tags": [
+                    "Decoration"
+                ],
+                "version": [
+                    "1.20.1"
+                ],
+                "loader": [
+                    "Fabric"
+                ],
+                "status": "Maintaining"
+            },
+            {
+                "name": "Not Enough Economy",
+                "description": "An item based economy system.",
+                "logo": "nee.webp",
+                "links": {
+                    "gh": "https://github.com/CodeOfArdonia/NotEnoughEconomy",
+                    "cf": "https://www.curseforge.com/minecraft/mc-mods/not-enough-economy",
+                    "mr": "https://modrinth.com/mod/not-enough-economy"
+                },
+                "tags": [
+                    "Decoration"
+                ],
+                "version": [
+                    "1.20.1"
+                ],
+                "loader": [
+                    "Fabric"
+                ],
+                "status": "Maintaining"
+            },
+            {
+                "name": "Pick Up TNT",
+                "description": "Make TNT pickable and more fun.",
+                "logo": "put.webp",
+                "links": {
+                    "gh": "https://github.com/CodeOfArdonia/PickUpTNT",
+                    "cf": "https://www.curseforge.com/minecraft/mc-mods/pick-up-tnt",
+                    "mr": "https://modrinth.com/mod/pick-up-tnt"
+                },
+                "tags": [
+                    "Utility"
+                ],
+                "version": [
+                    "1.20-1.21.4"
+                ],
+                "loader": [
+                    "Fabric",
+                    "Forge",
+                    "NeoForge"
+                ],
+                "status": "Maintaining"
+            },
+            {
+                "name": "Global Gamerule",
+                "description": "Set default game rules cross saves",
+                "logo": "gamerule.webp",
+                "links": {
+                    "gh": "https://github.com/IAFEnvoy/GlobalGameRule",
+                    "cf": "https://www.curseforge.com/minecraft/mc-mods/global-gamerule-fabric",
+                    "mr": "https://modrinth.com/mod/global-gamerule-fabric"
+                },
+                "tags": [
+                    "Utility"
+                ],
+                "version": [
+                    "1.20-1.21.1"
+                ],
+                "loader": [
+                    "Fabric"
+                ],
+                "status": "Low Priority"
+            }
+        ]
+    },
+    {
+        "title": "Client Utility",
         "display": {
             "logo": true,
             "status": true,
@@ -187,24 +417,51 @@
                 "status": "Low Priority"
             },
             {
-                "name": "Global Gamerule",
-                "description": "Set default game rules cross saves",
-                "logo": "gamerule.webp",
+                "name": "Defaulted Hotkeys",
+                "description": "Change any default keybindings.",
+                "logo": "hotkeys.webp",
                 "links": {
-                    "gh": "https://github.com/IAFEnvoy/GlobalGameRule",
-                    "cf": "https://www.curseforge.com/minecraft/mc-mods/global-gamerule-fabric",
-                    "mr": "https://modrinth.com/mod/global-gamerule-fabric"
+                    "gh": "https://github.com/CodeOfArdonia/DefaultHotkeys",
+                    "cf": "https://www.curseforge.com/minecraft/mc-mods/defaulted-hotkeys",
+                    "mr": "https://modrinth.com/mod/defaulted-hotkeys"
                 },
                 "tags": [
                     "Utility"
                 ],
                 "version": [
-                    "1.20-1.21.1"
+                    "1.20.1",
+                    "1.20.4",
+                    "1.20.6",
+                    "1.21.1"
                 ],
                 "loader": [
-                    "Fabric"
+                    "Fabric",
+                    "Forge",
+                    "NeoForge"
                 ],
-                "status": "Low Priority"
+                "status": "Maintaining"
+            },
+            {
+                "name": "Music Delay Controller",
+                "description": "Control background music delay as you want",
+                "logo": "mdc.webp",
+                "links": {
+                    "gh": "https://github.com/CodeOfArdonia/MusicDelayController",
+                    "cf": "https://www.curseforge.com/minecraft/mc-mods/music-delay-controller",
+                    "mr": "https://modrinth.com/mod/music-delay-controller"
+                },
+                "tags": [
+                    "Utility"
+                ],
+                "version": [
+                    "1.20.1"
+                ],
+                "loader": [
+                    "Fabric",
+                    "Forge",
+                    "NeoForge"
+                ],
+                "status": "Maintaining"
             },
             {
                 "name": "Early Loading Bar",
@@ -284,6 +541,50 @@
                     "NeoForge"
                 ],
                 "status": "Maintaining"
+            },
+            {
+                "name": "Neptune",
+                "description": "Animation Fan Work Engine",
+                "logo": "neptune.webp",
+                "links": {
+                    "gh": "https://github.com/CodeOfArdonia/Neptune",
+                    "cf": "https://www.curseforge.com/minecraft/mc-mods/neptune-lib",
+                    "mr": "https://modrinth.com/mod/neptune"
+                },
+                "tags": [
+                    "Utility"
+                ],
+                "version": [
+                    "1.20.1"
+                ],
+                "loader": [
+                    "Fabric",
+                    "Forge",
+                    "NeoForge"
+                ],
+                "status": "Maintaining"
+            },
+            {
+                "name": "Mercury",
+                "description": "A collection of server utilities",
+                "logo": "mercury.webp",
+                "links": {
+                    "gh": "https://github.com/CodeOfArdonia/Mercury",
+                    "cf": "https://www.curseforge.com/minecraft/mc-mods/mercury",
+                    "mr": "https://modrinth.com/mod/mercury-coa"
+                },
+                "tags": [
+                    "Utility"
+                ],
+                "version": [
+                    "1.20.1"
+                ],
+                "loader": [
+                    "Fabric",
+                    "Forge",
+                    "NeoForge"
+                ],
+                "status": "Developing"
             }
         ]
     },

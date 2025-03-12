@@ -34,11 +34,12 @@ window.onload = async _ => {
                 img.className = 'logo-img'
                 img.src = `./logos/mods/${logo}`
                 img.alt = logo
+                img.style.margin = '10px'
                 mainFlex.appendChild(img)
             }
-            let nameH1 = document.createElement('h1')
+            let nameH1 = document.createElement('h2')
             nameH1.innerText = name
-            nameH1.style.margin = '20px'
+            nameH1.style.margin = '10px'
             nameH1.style.textAlign = 'center'
             mainFlex.appendChild(nameH1)
             item.append(mainFlex)
