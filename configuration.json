@@ -1,0 +1,17 @@
+{
+    "colors": {
+        "version": "yellowgreen",
+        "loader": {
+            "Fabric": "#dad1b4",
+            "Forge": "darkslategray",
+            "NeoForge": "orange"
+        },
+        "status": {
+            "Not Release Yet": "pink",
+            "Developing": "aqua",
+            "Maintaining": "green",
+            "Low Priority": "magenta",
+            "Out of Maintainence": "red"
+        }
+    }
+}

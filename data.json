@@ -1,0 +1,464 @@
+[
+    {
+        "title": "Mod Porting",
+        "display": {
+            "logo": true,
+            "status": true,
+            "modal": true
+        },
+        "items": [
+            {
+                "name": "IceAndFire Community Edition",
+                "description": "The community version of mod Ice and Fire",
+                "logo": "iceandfire.webp",
+                "links": {
+                    "gh": "https://github.com/IAFEnvoy/IceAndFire-CE",
+                    "cf": "https://www.curseforge.com/minecraft/mc-mods/iceandfire-ce",
+                    "mr": "https://modrinth.com/mod/iceandfire-ce"
+                },
+                "tags": [
+                    "Adventure",
+                    "Mobs",
+                    "Equipment",
+                    "WorldGen"
+                ],
+                "version": [
+                    "1.20.1",
+                    "1.21.1"
+                ],
+                "loader": [
+                    "Fabric",
+                    "Forge",
+                    "NeoForge"
+                ],
+                "status": "Maintaining"
+            },
+            {
+                "name": "Ice And Fire Patcher",
+                "description": "Some simple patch for Ice And Fire",
+                "logo": "iafpatcher.webp",
+                "links": {
+                    "gh": "https://github.com/IAFEnvoy/IAF-Patcher",
+                    "cf": "https://www.curseforge.com/minecraft/mc-mods/ice-and-fire-patcher",
+                    "mr": "https://modrinth.com/mod/iaf-patcher"
+                },
+                "tags": [
+                    "Mobs",
+                    "Utility"
+                ],
+                "version": [
+                    "1.19.2",
+                    "1.20.1"
+                ],
+                "loader": [
+                    "Forge",
+                    "NeoForge"
+                ],
+                "status": "Low Priority"
+            },
+            {
+                "name": "Avaritia Reborn",
+                "description": "Avaritia Mod for Fabric",
+                "logo": "avaritia.webp",
+                "links": {
+                    "gh": "https://github.com/IAFEnvoy/AvaritiaReborn",
+                    "cf": "https://www.curseforge.com/minecraft/mc-mods/avaritiareborn",
+                    "mr": "https://modrinth.com/mod/avaritiareborn"
+                },
+                "tags": [
+                    "Equipment",
+                    "Utility"
+                ],
+                "version": [
+                    "1.20.1"
+                ],
+                "loader": [
+                    "Fabric"
+                ],
+                "status": "Out of Maintainence"
+            }
+        ]
+    },
+    {
+        "title": "Animation Fan Work",
+        "display": {
+            "logo": true,
+            "status": true,
+            "modal": true
+        },
+        "items": [
+            {
+                "name": "Rainimator Mod",
+                "description": "Rainimator Minecraft Animation mod. @Rainimator @Rainolaguer",
+                "logo": "rainimator.webp",
+                "links": {
+                    "gh": "https://github.com/IAFEnvoy/RainimatorMod",
+                    "cf": "https://www.curseforge.com/minecraft/mc-mods/rainimatormod",
+                    "mr": "https://modrinth.com/mod/rainimatormod"
+                },
+                "tags": [
+                    "Adventure",
+                    "Magic",
+                    "Mobs",
+                    "Equipment"
+                ],
+                "version": [
+                    "1.20.1"
+                ],
+                "loader": [
+                    "Fabric",
+                    "Forge",
+                    "NeoForge"
+                ],
+                "status": "Low Priority"
+            },
+            {
+                "name": "Worlds Apart",
+                "description": "",
+                "logo": "worlds_apart.webp",
+                "links": {},
+                "tags": [
+                    "Adventure",
+                    "Tools"
+                ],
+                "version": [
+                    "1.20.1"
+                ],
+                "loader": [
+                    "Fabric",
+                    "Forge",
+                    "NeoForge"
+                ],
+                "status": "Not Release Yet"
+            }
+        ]
+    },
+    {
+        "title": "Utility",
+        "display": {
+            "logo": true,
+            "status": true,
+            "modal": true
+        },
+        "items": [
+            {
+                "name": "Think Before Drop",
+                "description": "Press Q twice before drop item",
+                "logo": "tbd.webp",
+                "links": {
+                    "gh": "https://github.com/IAFEnvoy/ThinkBeforeDrop",
+                    "cf": "https://www.curseforge.com/minecraft/mc-mods/think-before-drop",
+                    "mr": "https://modrinth.com/mod/thinkbeforedrop"
+                },
+                "tags": [
+                    "Safety",
+                    "Utility"
+                ],
+                "version": [
+                    "1.16.5-1.21.4"
+                ],
+                "loader": [
+                    "Fabric",
+                    "Forge",
+                    "NeoForge"
+                ],
+                "status": "Low Priority"
+            },
+            {
+                "name": "Title Screen Mobs",
+                "description": "Add mobs to title screen",
+                "logo": "tsm.webp",
+                "links": {
+                    "gh": "https://github.com/IAFEnvoy/TitleScreenMobs",
+                    "cf": "https://www.curseforge.com/minecraft/mc-mods/title-screen-mobs",
+                    "mr": "https://modrinth.com/mod/title-screen-mobs"
+                },
+                "tags": [
+                    "Utility"
+                ],
+                "version": [
+                    "1.19.2-1.21.1"
+                ],
+                "loader": [
+                    "Fabric",
+                    "Forge",
+                    "NeoForge"
+                ],
+                "status": "Low Priority"
+            },
+            {
+                "name": "Global Gamerule",
+                "description": "Set default game rules cross saves",
+                "logo": "gamerule.webp",
+                "links": {
+                    "gh": "https://github.com/IAFEnvoy/GlobalGameRule",
+                    "cf": "https://www.curseforge.com/minecraft/mc-mods/global-gamerule-fabric",
+                    "mr": "https://modrinth.com/mod/global-gamerule-fabric"
+                },
+                "tags": [
+                    "Utility"
+                ],
+                "version": [
+                    "1.20-1.21.1"
+                ],
+                "loader": [
+                    "Fabric"
+                ],
+                "status": "Low Priority"
+            },
+            {
+                "name": "Early Loading Bar",
+                "description": "Add a pre loading bar for fabric",
+                "logo": "elb.webp",
+                "links": {
+                    "gh": "https://github.com/IAFEnvoy/EarlyLoadingBar",
+                    "cf": "https://www.curseforge.com/minecraft/mc-mods/early-loading-bar",
+                    "mr": "https://modrinth.com/mod/early-loading-bar"
+                },
+                "tags": [
+                    "Utility"
+                ],
+                "version": [
+                    "1.14-1.21.4"
+                ],
+                "loader": [
+                    "Fabric"
+                ],
+                "status": "Out of Maintainence"
+            }
+        ]
+    },
+    {
+        "title": "Library",
+        "display": {
+            "logo": true,
+            "status": true,
+            "modal": true
+        },
+        "items": [
+            {
+                "name": "Jupiter",
+                "description": "A powerful, auto sync config library.",
+                "logo": "jupiter.webp",
+                "links": {
+                    "gh": "https://github.com/IAFEnvoy/Jupiter",
+                    "cf": "https://www.curseforge.com/minecraft/mc-mods/jupiter",
+                    "mr": "https://modrinth.com/mod/jupiter"
+                },
+                "tags": [
+                    "Utility"
+                ],
+                "version": [
+                    "1.20.1",
+                    "1.20.4",
+                    "1.20.6",
+                    "1.21.1"
+                ],
+                "loader": [
+                    "Fabric",
+                    "Forge",
+                    "NeoForge"
+                ],
+                "status": "Maintaining"
+            },
+            {
+                "name": "Uranus",
+                "description": "A Library contains animation engine, object helper and so on. Partly based on LLibrary and Citadel.",
+                "logo": "uranus.webp",
+                "links": {
+                    "gh": "https://github.com/IAFEnvoy/Uranus",
+                    "cf": "https://www.curseforge.com/minecraft/mc-mods/uranus",
+                    "mr": "https://modrinth.com/mod/uranus"
+                },
+                "tags": [
+                    "Utility"
+                ],
+                "version": [
+                    "1.20.1",
+                    "1.20.4",
+                    "1.21.1"
+                ],
+                "loader": [
+                    "Fabric",
+                    "Forge",
+                    "NeoForge"
+                ],
+                "status": "Maintaining"
+            }
+        ]
+    },
+    {
+        "title": "Old Project",
+        "display": {
+            "logo": true,
+            "status": false,
+            "modal": true
+        },
+        "items": [
+            {
+                "name": "Annotation Lib",
+                "description": "The magic of annotations :)",
+                "logo": "annotation.webp",
+                "links": {
+                    "gh": "https://github.com/IAFEnvoy/AnnotationLib",
+                    "cf": "https://www.curseforge.com/minecraft/mc-mods/annotationlib",
+                    "mr": "https://modrinth.com/mod/annotationlib"
+                },
+                "tags": [
+                    "Utility"
+                ],
+                "version": [
+                    "1.17.1",
+                    "1.18.2",
+                    "1.19.4",
+                    "1.20.1"
+                ],
+                "loader": [
+                    "Fabric"
+                ]
+            },
+            {
+                "name": "Loading Manager",
+                "description": "Show more loading info on the loading screen",
+                "logo": "loadingmgr.webp",
+                "links": {
+                    "gh": "https://github.com/IAFEnvoy/LoadingManager",
+                    "cf": "https://www.curseforge.com/minecraft/mc-mods/loading-manager",
+                    "mr": "https://modrinth.com/mod/loadingmgr"
+                },
+                "tags": [
+                    "Utility"
+                ],
+                "version": [
+                    "1.16.5",
+                    "1.17.1"
+                ],
+                "loader": [
+                    "Fabric"
+                ]
+            },
+            {
+                "name": "Pendulum",
+                "description": "A programming language for Minecraft",
+                "logo": "pendulum.webp",
+                "links": {
+                    "gh": "https://github.com/IAFEnvoy/Pendulum",
+                    "mr": "https://modrinth.com/mod/pendulum"
+                },
+                "tags": [
+                    "Utility"
+                ],
+                "version": [
+                    "1.16.5"
+                ],
+                "loader": [
+                    "Fabric"
+                ]
+            }
+        ]
+    },
+    {
+        "title": "Never Release",
+        "subtitle": "Code Available on GitHub",
+        "display": {
+            "logo": false,
+            "status": false,
+            "modal": false
+        },
+        "items": [
+            {
+                "name": "AccountSwitcher",
+                "description": "Code is too f**king.",
+                "version": [
+                    "1.16.5",
+                    "1.17.1",
+                    "1.18.2",
+                    "1.19.3"
+                ],
+                "loader": [
+                    "Fabric"
+                ]
+            },
+            {
+                "name": "Fabric Trade API",
+                "description": "Embed Library (In IAF)",
+                "version": [
+                    "1.20.1"
+                ],
+                "loader": [
+                    "Fabric"
+                ]
+            },
+            {
+                "name": "World Edit ToolKit",
+                "description": "Don't continue any more.",
+                "version": [
+                    "1.20.1"
+                ],
+                "loader": [
+                    "Fabric"
+                ]
+            },
+            {
+                "name": "Command Tip",
+                "description": "Useless",
+                "version": [
+                    "1.16.5"
+                ],
+                "loader": [
+                    "Fabric"
+                ]
+            },
+            {
+                "name": "Block Finder",
+                "description": "Hack",
+                "version": [
+                    "1.16.5"
+                ],
+                "loader": [
+                    "Fabric"
+                ]
+            },
+            {
+                "name": "Shulker Box Crafting",
+                "description": "Useless",
+                "version": [
+                    "1.16.5"
+                ],
+                "loader": [
+                    "Fabric"
+                ]
+            },
+            {
+                "name": "Cosmetics",
+                "description": "Too complex to complete.",
+                "version": [
+                    "1.16.5"
+                ],
+                "loader": [
+                    "Fabric"
+                ]
+            },
+            {
+                "name": "Music Player",
+                "description": "Too many bugs.",
+                "version": [
+                    "1.16.5"
+                ],
+                "loader": [
+                    "Fabric"
+                ]
+            },
+            {
+                "name": "Hypixel Extension",
+                "description": "Quitted Hypixel.",
+                "version": [
+                    "1.16.5"
+                ],
+                "loader": [
+                    "Fabric"
+                ]
+            }
+        ]
+    }
+]
