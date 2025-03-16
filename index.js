@@ -23,7 +23,7 @@ window.onload = async _ => {
             root.appendChild(nodeWithText('h3', subtitle))
         let container = document.createElement('div')
         container.className = 'container'
-        for (let { name, description, logo, links, tags, version, loader, status } of items) {
+        for (let { name, description, logo, links, tags, version, loader, status, coop } of items) {
             let item = document.createElement('div')
             item.className = 'item'
 
@@ -56,6 +56,8 @@ window.onload = async _ => {
                 tagsDiv.appendChild(spanWithTextAndColor(l, configuration.colors.loader[l] ?? '#FF777777'))
             if (display.status)
                 tagsDiv.appendChild(spanWithTextAndColor(status, configuration.colors.status[status] ?? '#FF777777'))
+            if (coop)
+                tagsDiv.appendChild(spanWithTextAndColor('Co-Author: ' + coop.join(', '), configuration.colors[coop] ?? '#FF777777'))
             item.append(tagsDiv)
             container.appendChild(item)
         }

@@ -12,6 +12,7 @@
             "Maintaining": "green",
             "Low Priority": "magenta",
             "Out of Maintainence": "red"
-        }
+        },
+        "coop": "purple"
     }
 }
