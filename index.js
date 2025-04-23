@@ -23,10 +23,12 @@ window.onload = async _ => {
             root.appendChild(nodeWithText('h3', subtitle))
         let container = document.createElement('div')
         container.className = 'container'
+        root.appendChild(container)
         for (let i of items) {
             let { name, description, logo, mod_meta, ids, tags, version, loaders, status, coop } = await fetch(`./data/item/${i}.json`).then(res => res.json())
             let item = document.createElement('div')
             item.className = 'item'
+            container.appendChild(item)
 
             let mainFlex = document.createElement('div')
             if (display.logo) {
@@ -60,9 +62,7 @@ window.onload = async _ => {
             if (coop)
                 tagsDiv.appendChild(spanWithTextAndColor('Co-Author: ' + coop.join(', '), configuration.colors.coop ?? '#777777'))
             item.append(tagsDiv)
-            container.appendChild(item)
         }
-        root.appendChild(container)
     }
 }
 
