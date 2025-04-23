@@ -1,0 +1,25 @@
+{
+    "name": "Music Delay Controller",
+    "description": "Control background music delay as you want",
+    "logo": "mdc.webp",
+    "mod_meta": {
+        "id": "music_delay_controller",
+        "package": "com.iafenvoy.mdc",
+        "license": "MIT"
+    },
+    "ids": {
+        "gh": "CodeOfArdonia/MusicDelayController",
+        "cf": "1130568",
+        "mr": "NZuFvKrt"
+    },
+    "tags": [
+        "Utility"
+    ],
+    "versions": "1.20.1",
+    "loaders": [
+        "Fabric",
+        "Forge",
+        "NeoForge"
+    ],
+    "status": "Low Priority"
+}

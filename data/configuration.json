@@ -11,7 +11,8 @@
             "Developing": "aqua",
             "Maintaining": "green",
             "Low Priority": "magenta",
-            "Out of Maintainence": "red"
+            "Out of Maintainence": "red",
+            "Archived": "grey"
         },
         "coop": "purple"
     }

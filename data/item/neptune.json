@@ -1,0 +1,25 @@
+{
+    "name": "Neptune",
+    "description": "Animation Fan Work Engine",
+    "logo": "neptune.webp",
+    "mod_meta": {
+        "id": "neptune",
+        "package": "com.iafenvoy.neptune",
+        "license": "All Right Reserved"
+    },
+    "ids": {
+        "gh": "CodeOfArdonia/Neptune",
+        "cf": "1071077",
+        "mr": "1imAYnrk"
+    },
+    "tags": [
+        "Utility"
+    ],
+    "version": "1.20.1",
+    "loaders": [
+        "Fabric",
+        "Forge",
+        "NeoForge"
+    ],
+    "status": "Maintaining"
+}

@@ -1,0 +1,13 @@
+{
+    "name": "Hypixel Extension",
+    "description": "Quitted Hypixel.",
+    "mod_meta": {
+        "id": "hypextension",
+        "package": "iafenvoy.hypextension",
+        "license": "GPL-3.0"
+    },
+    "version": "1.16.5",
+    "loaders": [
+        "Fabric"
+    ]
+}

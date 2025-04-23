@@ -1,0 +1,25 @@
+{
+    "name": "Ice And Fire Patcher",
+    "description": "Some simple patch for Ice And Fire",
+    "logo": "iafpatcher.webp",
+    "mod_meta": {
+        "id": "iaf_patcher",
+        "package": "com.iafenvoy.iafpatcher",
+        "license": "LGPL-3.0"
+    },
+    "ids": {
+        "gh": "IAFEnvoy/IAF-Patcher",
+        "cf": "1066111",
+        "mr": "5ajMogiG"
+    },
+    "tags": [
+        "Mobs",
+        "Utility"
+    ],
+    "version": "1.19.2, 1.20.1",
+    "loaders": [
+        "Forge",
+        "NeoForge"
+    ],
+    "status": "Low Priority"
+}

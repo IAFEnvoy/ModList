@@ -1,0 +1,26 @@
+{
+    "name": "Netherite Extension",
+    "description": "The high version fabric port of Netherite Plus Mod",
+    "logo": "netherite.webp",
+    "mod_meta": {
+        "id": "netherite",
+        "package": "com.iafenvoy.netherite",
+        "license": "MIT"
+    },
+    "ids": {
+        "gh": "CodeOfArdonia/NetheriteExtension",
+        "cf": "1046766",
+        "mr": "3iyX9Ibn"
+    },
+    "tags": [
+        "Equipment",
+        "Utility"
+    ],
+    "version": "1.19.4->1.21.1",
+    "loaders": [
+        "Fabric",
+        "Forge",
+        "NeoForge"
+    ],
+    "status": "Low Priority"
+}

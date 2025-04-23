@@ -1,0 +1,25 @@
+{
+    "name": "Uranus",
+    "description": "A Library contains animation engine, object helper and so on. Partly based on LLibrary and Citadel.",
+    "logo": "uranus.webp",
+    "mod_meta": {
+        "id": "uranus",
+        "package": "com.iafenvoy.uranus",
+        "license": "LGPL-3.0"
+    },
+    "ids": {
+        "gh": "IAFEnvoy/Uranus",
+        "cf": "1010827",
+        "mr": "3Acxy864"
+    },
+    "tags": [
+        "Utility"
+    ],
+    "version": "1.20.1->1.21.1",
+    "loaders": [
+        "Fabric",
+        "Forge",
+        "NeoForge"
+    ],
+    "status": "Maintaining"
+}

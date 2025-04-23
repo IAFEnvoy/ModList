@@ -1,0 +1,13 @@
+{
+    "name": "Music Player",
+    "description": "Too many bugs.",
+    "mod_meta": {
+        "id": "musicplayer",
+        "package": "net.iafenvoy.musicplayer",
+        "license": "GPL-3.0"
+    },
+    "version": "1.16.5",
+    "loaders": [
+        "Fabric"
+    ]
+}

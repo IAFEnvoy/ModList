@@ -1,0 +1,28 @@
+{
+    "name": "Songs of War",
+    "description": "The Songs of War Animation Mod",
+    "logo": "sow.webp",
+    "mod_meta": {
+        "id": "sow",
+        "package": "com.iafenvoy.sow",
+        "license": "All Right Reserved"
+    },
+    "ids": {
+        "gh": "CodeOfArdonia/SongsOfWar",
+        "cf": "1093619",
+        "mr": "EQkwjM7q"
+    },
+    "tags": [
+        "Adventure",
+        "Mobs",
+        "Equipment",
+        "RPG"
+    ],
+    "version": "1.20.1",
+    "loaders": [
+        "Fabric",
+        "Forge",
+        "NeoForge"
+    ],
+    "status": "Developing"
+}

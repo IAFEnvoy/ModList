@@ -1,0 +1,26 @@
+{
+    "name": "Tameable",
+    "description": "Tame everything!",
+    "logo": "tameable.webp",
+    "mod_meta": {
+        "id": "tameable",
+        "package": "com.iafenvoy.tameable",
+        "license": "MIT"
+    },
+    "ids": {
+        "gh": "CodeOfArdonia/Tameable",
+        "cf": "1110434",
+        "mr": "jJkK19x7"
+    },
+    "tags": [
+        "Mobs",
+        "Utility"
+    ],
+    "version": "1.20.1",
+    "loaders": [
+        "Fabric",
+        "Forge",
+        "NeoForge"
+    ],
+    "status": "Low Priority"
+}

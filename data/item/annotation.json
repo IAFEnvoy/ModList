@@ -1,0 +1,22 @@
+{
+    "name": "Annotation Lib",
+    "description": "The magic of annotations :)",
+    "logo": "annotation.webp",
+    "mod_meta": {
+        "id": "annotation_lib",
+        "package": "com.iafenvoy.annotationlib",
+        "license": "LGPL-3.0"
+    },
+    "ids": {
+        "gh": "IAFEnvoy/AnnotationLib",
+        "cf": "1010826",
+        "mr": "hYBRpZ1d"
+    },
+    "tags": [
+        "Utility"
+    ],
+    "version": "1.17.1->1.20.1",
+    "loaders": [
+        "Fabric"
+    ]
+}

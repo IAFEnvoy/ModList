@@ -1,0 +1,23 @@
+{
+    "name": "Dragon Mounts: Sow Edition",
+    "description": "A fabric fork of Dragon Mounts: Legacy, for SoW modpack.",
+    "logo": "dm.webp",
+    "mod_meta": {
+        "id": "dragon_mounts",
+        "package": "com.iafenvoy.dragonmounts",
+        "license": "GPL-3.0"
+    },
+    "ids": {
+        "gh": "CodeOfArdonia/Dragon-Mounts-SoW-Edition",
+        "cf": "1125194",
+        "mr": "viHEVBo5"
+    },
+    "tags": [
+        "Mobs"
+    ],
+    "version": "1.20.1",
+    "loaders": [
+        "Fabric"
+    ],
+    "status": "Low Priority"
+}

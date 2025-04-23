@@ -1,0 +1,28 @@
+{
+    "name": "IceAndFire Community Edition",
+    "description": "The community version of mod Ice and Fire",
+    "logo": "iceandfire.webp",
+    "mod_meta": {
+        "id": "iceandfire",
+        "package": "com.iafenvoy.iceandfire",
+        "license": "LGPL-3.0"
+    },
+    "ids": {
+        "gh": "IAFEnvoy/IceAndFire-CE",
+        "cf": "1040076",
+        "mr": "VpmCsizY"
+    },
+    "tags": [
+        "Adventure",
+        "Mobs",
+        "Equipment",
+        "WorldGen"
+    ],
+    "version": "1.20.1, 1.21.1",
+    "loaders": [
+        "Fabric",
+        "Forge",
+        "NeoForge"
+    ],
+    "status": "Maintaining"
+}

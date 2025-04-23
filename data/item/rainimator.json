@@ -1,0 +1,28 @@
+{
+    "name": "Rainimator Mod",
+    "description": "Rainimator Minecraft Animation mod. @Rainimator @Rainolaguer",
+    "logo": "rainimator.webp",
+    "mod_meta": {
+        "id": "rainimator",
+        "package": "dev.rainimator.mod",
+        "license": "All Right Reserved"
+    },
+    "ids": {
+        "gh": "IAFEnvoy/RainimatorMod",
+        "cf": "1013083",
+        "mr": "7dB6Zo75"
+    },
+    "tags": [
+        "Adventure",
+        "Magic",
+        "Mobs",
+        "Equipment"
+    ],
+    "version": "1.20.1",
+    "loaders": [
+        "Fabric",
+        "Forge",
+        "NeoForge"
+    ],
+    "status": "Low Priority"
+}

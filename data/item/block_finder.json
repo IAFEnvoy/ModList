@@ -1,0 +1,13 @@
+{
+    "name": "Block Finder",
+    "description": "Hack",
+    "mod_meta": {
+        "id": "blockfinder",
+        "package": "iafenvoy.blockfinder",
+        "license": "GPL-3.0"
+    },
+    "version": "1.16.5",
+    "loaders": [
+        "Fabric"
+    ]
+}

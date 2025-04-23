@@ -1,0 +1,25 @@
+{
+    "name": "Title Screen Mobs",
+    "description": "Add mobs to title screen",
+    "logo": "tsm.webp",
+    "mod_meta": {
+        "id": "title_screen_mobs",
+        "package": "com.iafenvoy.tsm",
+        "license": "Apache-2.0"
+    },
+    "ids": {
+        "gh": "IAFEnvoy/TitleScreenMobs",
+        "cf": "1094310",
+        "mr": "VjFOvebz"
+    },
+    "tags": [
+        "Utility"
+    ],
+    "version": "1.19.2->1.21.1",
+    "loaders": [
+        "Fabric",
+        "Forge",
+        "NeoForge"
+    ],
+    "status": "Low Priority"
+}

@@ -1,0 +1,26 @@
+{
+    "name": "NBT Glint",
+    "description": "A client side mod for color glint",
+    "logo": "glint.webp",
+    "mod_meta": {
+        "id": "nbt_glint",
+        "package": "com.iafenvoy.glint",
+        "license": "All Right Reserved"
+    },
+    "ids": {
+        "gh": "CodeOfArdonia/NBTGlint",
+        "cf": "1219340",
+        "mr": "NyQ35wXb"
+    },
+    "tags": [
+        "Decoration",
+        "Library"
+    ],
+    "version": "1.20.1",
+    "loaders": [
+        "Fabric",
+        "Forge",
+        "NeoForge"
+    ],
+    "status": "Maintaining"
+}

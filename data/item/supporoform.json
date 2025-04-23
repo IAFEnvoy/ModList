@@ -1,0 +1,23 @@
+{
+    "name": "Supporoform",
+    "description": "A fabric fork of Tinker's Construct/Hephaestus",
+    "logo": "supporoform.webp",
+    "mod_meta": {
+        "id": "tconstruct",
+        "package": "slimeknights.tconstruct",
+        "license": "MIT"
+    },
+    "ids": {
+        "gh": "CodeOfArdonia/Supporoform",
+        "cf": "1151129",
+        "mr": "mK7OjFet"
+    },
+    "tags": [
+        "Mobs"
+    ],
+    "version": "1.20.1",
+    "loaders": [
+        "Fabric"
+    ],
+    "status": "Low Priority"
+}

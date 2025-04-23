@@ -1,0 +1,25 @@
+{
+    "name": "Better Tags",
+    "description": "Add better tag loading format",
+    "logo": "tags.webp",
+    "mod_meta": {
+        "id": "better_tags",
+        "package": "com.iafenvoy.bettertags",
+        "license": "LGPL-3.0"
+    },
+    "ids": {
+        "gh": "CodeOfArdonia/BetterTags",
+        "cf": "1185530",
+        "mr": "1Fl0Xs8x"
+    },
+    "tags": [
+        "Utility"
+    ],
+    "version": "1.20.1",
+    "loaders": [
+        "Fabric",
+        "Forge",
+        "NeoForge"
+    ],
+    "status": "Low Priority"
+}
