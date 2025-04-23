@@ -1,23 +1,25 @@
 {
-    "name": "Not Enough Economy",
+    "name": "Random Economy",
     "description": "An item based economy system.",
-    "logo": "nee.webp",
+    "logo": "economy.webp",
     "mod_meta": {
         "id": "random_economy",
         "package": "com.iafenvoy.random.economy",
         "license": "All Right Reserved"
     },
     "ids": {
-        "gh": "CodeOfArdonia/NotEnoughEconomy",
+        "gh": "CodeOfArdonia/RandomEconomy",
         "cf": "1164971",
         "mr": "yXyVb5f1"
     },
     "tags": [
-        "Decoration"
+        "Economy"
     ],
     "version": "1.20.1",
     "loaders": [
-        "Fabric"
+        "Fabric",
+        "Forge",
+        "NeoForge"
     ],
     "status": "Maintaining"
 }

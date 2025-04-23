@@ -1,0 +1,26 @@
+{
+    "name": "Happy Ghast Legacy",
+    "description": "Happy Ghast backport from 25w15a",
+    "logo": "ghast.webp",
+    "mod_meta": {
+        "id": "happy_ghast_legacy",
+        "package": "com.iafenvoy.ghast",
+        "license": "All Right Reserved"
+    },
+    "ids": {
+        "gh": "IAFEnvoy/HappyGhastLegacy",
+        "cf": "1248466",
+        "mr": "zi5opIfD"
+    },
+    "tags": [
+        "Mobs",
+        "World Gen"
+    ],
+    "version": "1.20.1",
+    "loaders": [
+        "Fabric",
+        "Forge",
+        "NeoForge"
+    ],
+    "status": "Maintaining"
+}

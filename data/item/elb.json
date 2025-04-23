@@ -15,7 +15,7 @@
     "tags": [
         "Utility"
     ],
-    "version": "1.14->1.21.4",
+    "version": "1.14~1.21.4",
     "loaders": [
         "Fabric"
     ],

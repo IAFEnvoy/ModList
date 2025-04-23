@@ -16,7 +16,7 @@
         "Safety",
         "Utility"
     ],
-    "version": "1.16.5->1.21.4",
+    "version": "1.16.5~1.21.4",
     "loaders": [
         "Fabric",
         "Forge",

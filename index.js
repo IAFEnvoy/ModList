@@ -111,7 +111,6 @@ const constructModalSpan = (text, bgColor, copyText) => {
         span.onclick = _ => copyToClip(span, copyText)
         span.style.cursor = 'pointer'
     }
-    console.log(copyText)
     return span
 }
 

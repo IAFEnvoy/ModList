@@ -23,6 +23,10 @@ h4 {
     color: lightgray;
 }
 
+p {
+    font-size: larger;
+}
+
 .link-group {
     justify-content: center;
     left: 0;
@@ -83,6 +87,7 @@ h4 {
 
 .tags {
     margin-top: 10px;
+    text-align: center;
 }
 
 .tags span {
@@ -211,7 +216,7 @@ h4 {
     body {
         background-color: #25272a;
     }
-    
+
     h1,
     h2,
     h3 {
@@ -221,27 +226,27 @@ h4 {
     .item h3 {
         color: #ddd;
     }
-    
+
     h4 {
         color: darkslategray;
     }
 
-    div{
+    div {
         color: white;
     }
 
     .item {
         background-color: #282c34;
     }
-    
+
     .modal-content {
         background-color: #282c34;
     }
-    
+
     .close {
         color: #666;
     }
-    
+
     .close:hover,
     .close:focus {
         color: #fff;

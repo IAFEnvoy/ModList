@@ -38,11 +38,13 @@
             "modal": true
         },
         "items": [
+            "ghast",
+            "unified",
             "netherite",
             "tameable",
             "tame_tools",
             "banner",
-            "nee",
+            "economy",
             "gamerule",
             "put",
             "resource",
@@ -62,7 +64,8 @@
             "hotkeys",
             "glint",
             "mdc",
-            "elb"
+            "elb",
+            "cetv"
         ]
     },
     {
@@ -76,7 +79,8 @@
             "jupiter",
             "uranus",
             "neptune",
-            "mercury"
+            "mercury",
+            "random_library"
         ]
     },
     {
