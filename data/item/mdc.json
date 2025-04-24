@@ -15,7 +15,7 @@
     "tags": [
         "Utility"
     ],
-    "versions": "1.20.1",
+    "version": "1.20.1",
     "loaders": [
         "Fabric",
         "Forge",
