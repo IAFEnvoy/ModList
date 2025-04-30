@@ -39,15 +39,16 @@
         },
         "items": [
             "ghast",
-            "unified",
+            "resource",
+            "resource_world",
             "netherite",
+            "put",
             "tameable",
             "tame_tools",
             "banner",
             "economy",
             "gamerule",
-            "put",
-            "resource",
+            "unified",
             "tags"
         ]
     },
