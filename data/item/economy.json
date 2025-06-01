@@ -1,0 +1,25 @@
+{
+    "name": "Random Economy",
+    "description": "An item based economy system.",
+    "logo": "economy.webp",
+    "mod_meta": {
+        "id": "random_economy",
+        "package": "com.iafenvoy.random.economy",
+        "license": "All Right Reserved"
+    },
+    "ids": {
+        "gh": "CodeOfArdonia/RandomEconomy",
+        "cf": "1164971",
+        "mr": "yXyVb5f1"
+    },
+    "tags": [
+        "Economy"
+    ],
+    "version": "1.20.1",
+    "loaders": [
+        "Fabric",
+        "Forge",
+        "NeoForge"
+    ],
+    "status": "Maintaining"
+}

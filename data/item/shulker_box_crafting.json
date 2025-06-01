@@ -1,0 +1,13 @@
+{
+    "name": "Shulker Box Crafting",
+    "description": "Useless",
+    "mod_meta": {
+        "id": "shulkerboxcrafting",
+        "package": "iafenvoy.shulkerboxcrafting",
+        "license": "No License"
+    },
+    "version": "1.16.5",
+    "loaders": [
+        "Fabric"
+    ]
+}

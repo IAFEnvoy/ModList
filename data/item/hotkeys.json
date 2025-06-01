@@ -1,0 +1,25 @@
+{
+    "name": "Defaulted Hotkeys",
+    "description": "Change any default keybindings.",
+    "logo": "hotkeys.webp",
+    "mod_meta": {
+        "id": "defaulted_hotkeys",
+        "package": "com.iafenvoy.dhks",
+        "license": "LGPL-3.0"
+    },
+    "ids": {
+        "gh": "CodeOfArdonia/DefaultHotkeys",
+        "cf": "1158440",
+        "mr": "fE4Yg12d"
+    },
+    "tags": [
+        "Utility"
+    ],
+    "version": "1.20.1~1.21.1",
+    "loaders": [
+        "Fabric",
+        "Forge",
+        "NeoForge"
+    ],
+    "status": "Maintaining"
+}

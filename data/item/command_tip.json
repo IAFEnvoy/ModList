@@ -1,0 +1,13 @@
+{
+    "name": "Command Tip",
+    "description": "Useless",
+    "mod_meta": {
+        "id": "cmdtip",
+        "package": "iafenvoy.cmdtip",
+        "license": "GPL-3.0"
+    },
+    "version": "1.16.5",
+    "loaders": [
+        "Fabric"
+    ]
+}

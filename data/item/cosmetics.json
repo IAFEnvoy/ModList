@@ -1,0 +1,13 @@
+{
+    "name": "Cosmetics",
+    "description": "Too complex to complete.",
+    "mod_meta": {
+        "id": "cosmetics",
+        "package": "net.iafenvoy.cosmetics",
+        "license": "GPL-3.0"
+    },
+    "version": "1.16.5",
+    "loaders": [
+        "Fabric"
+    ]
+}

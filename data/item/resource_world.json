@@ -1,0 +1,27 @@
+{
+    "name": "Resource World",
+    "description": "A server side mod to create resource worlds",
+    "logo": "resource_world.webp",
+    "mod_meta": {
+        "id": "resource_world",
+        "package": "com.iafenvoy.resourceworld",
+        "license": "All Right Reserved"
+    },
+    "ids": {
+        "gh": "IAFEnvoy/ResourceWorld",
+        "cf": "1255178",
+        "mr": "ynOPEE9I"
+    },
+    "tags": [
+        "Dimension",
+        "WorldGen",
+        "Utility"
+    ],
+    "version": "1.20.1",
+    "loaders": [
+        "Fabric",
+        "Forge",
+        "NeoForge"
+    ],
+    "status": "Maintaining"
+}

@@ -1,0 +1,25 @@
+{
+    "name": "Unified",
+    "description": "Unify items!",
+    "logo": "unified.webp",
+    "mod_meta": {
+        "id": "unified",
+        "package": "com.iafenvoy.unified",
+        "license": "All Right Reserved"
+    },
+    "ids": {
+        "gh": "IAFEnvoy/Unified",
+        "cf": "1249039",
+        "mr": "h48CjLJD"
+    },
+    "tags": [
+        "Utility"
+    ],
+    "version": "1.20.1",
+    "loaders": [
+        "Fabric",
+        "Forge",
+        "NeoForge"
+    ],
+    "status": "Maintaining"
+}

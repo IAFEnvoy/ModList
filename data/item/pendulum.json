@@ -1,0 +1,21 @@
+{
+    "name": "Pendulum",
+    "description": "A programming language for Minecraft",
+    "logo": "pendulum.webp",
+    "mod_meta": {
+        "id": "pendulum",
+        "package": "iafenvoy.pendulum",
+        "license": "GPL-3.0"
+    },
+    "ids": {
+        "gh": "IAFEnvoy/Pendulum",
+        "mr": "xjMYT7RL"
+    },
+    "tags": [
+        "Utility"
+    ],
+    "version": "1.16.5",
+    "loaders": [
+        "Fabric"
+    ]
+}

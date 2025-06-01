@@ -1,0 +1,23 @@
+{
+    "name": "Early Loading Bar",
+    "description": "Add a pre loading bar for fabric",
+    "logo": "elb.webp",
+    "mod_meta": {
+        "id": "early_loading_bar",
+        "package": "com.iafenvoy.elb",
+        "license": "LGPL-3.0"
+    },
+    "ids": {
+        "gh": "IAFEnvoy/EarlyLoadingBar",
+        "cf": "1093364",
+        "mr": "B5CKa9gc"
+    },
+    "tags": [
+        "Utility"
+    ],
+    "version": "1.14~1.21.4",
+    "loaders": [
+        "Fabric"
+    ],
+    "status": "Out of Maintainence"
+}

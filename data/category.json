@@ -1,0 +1,120 @@
+[
+    {
+        "title": "Mod Porting",
+        "display": {
+            "logo": true,
+            "status": true,
+            "modal": true
+        },
+        "items": [
+            "iceandfire",
+            "iafpatcher",
+            "avaritia2",
+            "avaritia",
+            "dm",
+            "supporoform"
+        ]
+    },
+    {
+        "title": "Animation Fan Work",
+        "display": {
+            "logo": true,
+            "status": true,
+            "modal": true
+        },
+        "items": [
+            "rainimator",
+            "av",
+            "sow",
+            "nezha",
+            "worlds_apart"
+        ]
+    },
+    {
+        "title": "Enhancement",
+        "display": {
+            "logo": true,
+            "status": true,
+            "modal": true
+        },
+        "items": [
+            "ghast",
+            "resource",
+            "resource_world",
+            "netherite",
+            "put",
+            "tameable",
+            "tame_tools",
+            "banner",
+            "economy",
+            "gamerule",
+            "unified",
+            "tags"
+        ]
+    },
+    {
+        "title": "Client Utility",
+        "display": {
+            "logo": true,
+            "status": true,
+            "modal": true
+        },
+        "items": [
+            "tbd",
+            "tsm",
+            "hotkeys",
+            "glint",
+            "mdc",
+            "elb",
+            "cetv"
+        ]
+    },
+    {
+        "title": "Library",
+        "display": {
+            "logo": true,
+            "status": true,
+            "modal": true
+        },
+        "items": [
+            "jupiter",
+            "uranus",
+            "neptune",
+            "mercury",
+            "random_library"
+        ]
+    },
+    {
+        "title": "Old Project",
+        "display": {
+            "logo": true,
+            "status": false,
+            "modal": true
+        },
+        "items": [
+            "annotation",
+            "loadingmgr",
+            "pendulum"
+        ]
+    },
+    {
+        "title": "Never Release",
+        "subtitle": "Code Available on GitHub",
+        "display": {
+            "logo": false,
+            "status": false,
+            "modal": false
+        },
+        "items": [
+            "accountswitcher",
+            "fabric_trade_api",
+            "world_edit_toolkit",
+            "command_tip",
+            "block_finder",
+            "shulker_box_crafting",
+            "cosmetics",
+            "music_player",
+            "hypixel_extension"
+        ]
+    }
+]

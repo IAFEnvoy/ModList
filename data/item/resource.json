@@ -1,0 +1,25 @@
+{
+    "name": "Resource Generator",
+    "description": "A server side resource generator mod",
+    "logo": "resource.webp",
+    "mod_meta": {
+        "id": "resource_generator",
+        "package": "com.iafenvoy.resgen",
+        "license": "All Right Reserved"
+    },
+    "ids": {
+        "gh": "CodeOfArdonia/ResourceGenerator",
+        "cf": "1218170",
+        "mr": "z0HjBgE3"
+    },
+    "tags": [
+        "Utility"
+    ],
+    "version": "1.20.1",
+    "loaders": [
+        "Fabric",
+        "Forge",
+        "NeoForge"
+    ],
+    "status": "Maintaining"
+}

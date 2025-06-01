@@ -1,0 +1,32 @@
+{
+    "name": "Re:Avaritia",
+    "description": "A reforge version of Avaritia",
+    "logo": "avaritia2.jpg",
+    "mod_meta": {
+        "id": "avaritia",
+        "package": "committee.nova.mods.avaritia",
+        "license": "MIT"
+    },
+    "ids": {
+        "gh": "Nova-Committee/Re-Avaritia",
+        "cf": "623969",
+        "mr": "QeB3NRC5"
+    },
+    "tags": [
+        "Adventure",
+        "Equipment"
+    ],
+    "version": [
+        "1.20.1",
+        "1.20.4"
+    ],
+    "loaders": [
+        "Fabric",
+        "Forge",
+        "NeoForge"
+    ],
+    "status": "Maintaining",
+    "coop": [
+        "cnlimiter"
+    ]
+}

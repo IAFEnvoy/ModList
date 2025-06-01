@@ -1,0 +1,26 @@
+{
+    "name": "Tame Tools",
+    "description": "Additional tools for Tameable Mod",
+    "logo": "tame_tools.webp",
+    "mod_meta": {
+        "id": "tame_tools",
+        "package": "com.iafenvoy.tametools",
+        "license": "All Right Reserved"
+    },
+    "ids": {
+        "gh": "CodeOfArdonia/TameTools",
+        "cf": "1122983",
+        "mr": "u0ER8z2O"
+    },
+    "tags": [
+        "Mobs",
+        "Utility"
+    ],
+    "version": "1.20.1",
+    "loaders": [
+        "Fabric",
+        "Forge",
+        "NeoForge"
+    ],
+    "status": "Low Priority"
+}

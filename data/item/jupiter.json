@@ -1,0 +1,25 @@
+{
+    "name": "Jupiter",
+    "description": "A powerful, auto sync config library.",
+    "logo": "jupiter.webp",
+    "mod_meta": {
+        "id": "jupiter",
+        "package": "com.iafenvoy.jupiter",
+        "license": "LGPL-3.0"
+    },
+    "ids": {
+        "gh": "IAFEnvoy/Jupiter",
+        "cf": "1072905",
+        "mr": "XbiLGMMU"
+    },
+    "tags": [
+        "Utility"
+    ],
+    "version": "1.16.5~1.21.1",
+    "loaders": [
+        "Fabric",
+        "Forge",
+        "NeoForge"
+    ],
+    "status": "Maintaining"
+}

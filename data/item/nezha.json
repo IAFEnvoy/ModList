@@ -1,0 +1,27 @@
+{
+    "name": "Ne Zha",
+    "description": "A fan-made mod of Ne Zha movie.",
+    "logo": "nezha.webp",
+    "mod_meta": {
+        "id": "nezha",
+        "package": "com.iafenvoy.nezha",
+        "license": "All Right Reserved"
+    },
+    "ids": {
+        "gh": "IAFEnvoy/NeZha",
+        "cf": "1212974",
+        "mr": "ex2ybRNs"
+    },
+    "tags": [
+        "Adventure",
+        "Food",
+        "Mobs"
+    ],
+    "version": "1.20.1",
+    "loaders": [
+        "Fabric",
+        "Forge",
+        "NeoForge"
+    ],
+    "status": "Developing"
+}

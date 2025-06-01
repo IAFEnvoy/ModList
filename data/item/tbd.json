@@ -1,0 +1,26 @@
+{
+    "name": "Think Before Drop",
+    "description": "Press Q twice before drop item",
+    "logo": "tbd.webp",
+    "mod_meta": {
+        "id": "thinkbeforedrop",
+        "package": "com.iafenvoy.thinkbeforedrop",
+        "license": "GPL-3.0"
+    },
+    "ids": {
+        "gh": "IAFEnvoy/ThinkBeforeDrop",
+        "cf": "1057081",
+        "mr": "AyHwMikg"
+    },
+    "tags": [
+        "Safety",
+        "Utility"
+    ],
+    "version": "1.16.5~1.21.4",
+    "loaders": [
+        "Fabric",
+        "Forge",
+        "NeoForge"
+    ],
+    "status": "Low Priority"
+}

@@ -1,0 +1,22 @@
+{
+    "name": "Loading Manager",
+    "description": "Show more loading info on the loading screen",
+    "logo": "loadingmgr.webp",
+    "mod_meta": {
+        "id": "loadingmgr",
+        "package": "net.iafenvoy.loadingmgr",
+        "license": "LGPL-2.1"
+    },
+    "ids": {
+        "gh": "IAFEnvoy/LoadingManager",
+        "cf": "583383",
+        "mr": "P3S1iDNp"
+    },
+    "tags": [
+        "Utility"
+    ],
+    "version": "1.16.5, 1.17.1",
+    "loaders": [
+        "Fabric"
+    ]
+}

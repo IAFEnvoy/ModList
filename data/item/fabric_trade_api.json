@@ -1,0 +1,13 @@
+{
+    "name": "Fabric Trade API",
+    "description": "Embed Library (In IAF)",
+    "mod_meta": {
+        "id": "fabric-trade-api",
+        "package": "com.iafenvoy.fabric.trade",
+        "license": "Apache-2.0"
+    },
+    "version": "1.20.1",
+    "loaders": [
+        "Fabric"
+    ]
+}

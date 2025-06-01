@@ -1,0 +1,25 @@
+{
+    "name": "Random Library",
+    "description": "A library for my random series mods.",
+    "logo": "random_library.webp",
+    "mod_meta": {
+        "id": "random_library",
+        "package": "com.iafenvoy.random.library",
+        "license": "All Right Reserved"
+    },
+    "ids": {
+        "gh": "IAFEnvoy/RandomLibrary",
+        "cf": "1246754",
+        "mr": "RIF1C5pj"
+    },
+    "tags": [
+        "Utility"
+    ],
+    "version": "1.20.1",
+    "loaders": [
+        "Fabric",
+        "Forge",
+        "NeoForge"
+    ],
+    "status": "Maintaining"
+}

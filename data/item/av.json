@@ -1,0 +1,28 @@
+{
+    "name": "Annoying Villagers",
+    "description": "Add objects from Annoying Villagers animation",
+    "logo": "av.webp",
+    "mod_meta": {
+        "id": "annoying_villagers",
+        "package": "com.iafenvoy.annoyingvillagers",
+        "license": "All Right Reserved"
+    },
+    "ids": {
+        "gh": "IAFEnvoy/AnnoyingVillagers",
+        "cf": "1069464",
+        "mr": "1XNzFgSy"
+    },
+    "tags": [
+        "Adventure"
+    ],
+    "version": "1.20.1",
+    "loaders": [
+        "Fabric",
+        "Forge",
+        "NeoForge"
+    ],
+    "status": "Archived",
+    "coop": [
+        "shuixingshow"
+    ]
+}

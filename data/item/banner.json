@@ -1,0 +1,23 @@
+{
+    "name": "Mobs Banner",
+    "description": "Add decorative banners for almost all mobs",
+    "logo": "banner.webp",
+    "mod_meta": {
+        "id": "mobs_banner",
+        "package": "com.iafenvoy.mobsbanner",
+        "license": "MIT"
+    },
+    "ids": {
+        "gh": "CodeOfArdonia/MobsBanner",
+        "cf": "1143949",
+        "mr": "LsuPYjxY"
+    },
+    "tags": [
+        "Decoration"
+    ],
+    "version": "1.20.1",
+    "loaders": [
+        "Fabric"
+    ],
+    "status": "Low Priority"
+}
