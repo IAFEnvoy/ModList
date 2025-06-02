@@ -1,0 +1,26 @@
+{
+    "name": "Server I18n API",
+    "description": "I18n implementation on server side only.",
+    "logo": "i18n.png",
+    "mod_meta": {
+        "id": "server_i18n_api",
+        "package": "com.iafenvoy.server.i18n",
+        "license": "MIT"
+    },
+    "ids": {
+        "gh": "CodeOfArdonia/ServerI18nAPI",
+        "cf": "1278793",
+        "mr": "Cl2eyShu"
+    },
+    "tags": [
+        "Server Utility",
+        "Utility"
+    ],
+    "version": "1.20.1",
+    "loaders": [
+        "Fabric",
+        "Forge",
+        "NeoForge"
+    ],
+    "status": "Maintaining"
+}

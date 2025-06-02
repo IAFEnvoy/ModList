@@ -1,0 +1,26 @@
+{
+    "name": "Tooltips Reforged",
+    "description": "Fully remake the whole tooltips and add various functions",
+    "logo": "tooltips.webp",
+    "mod_meta": {
+        "id": "tooltips_reforged",
+        "package": "com.iafenvoy.tooltipsreforged",
+        "license": "MIT"
+    },
+    "ids": {
+        "gh": "CodeOfArdonia/TooltipsReforged",
+        "cf": "1277444",
+        "mr": "qkofbRz9"
+    },
+    "tags": [
+        "Tooltips",
+        "Utility"
+    ],
+    "version": "1.20.1",
+    "loaders": [
+        "Fabric",
+        "Forge",
+        "NeoForge"
+    ],
+    "status": "Maintaining"
+}

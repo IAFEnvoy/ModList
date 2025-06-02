@@ -1,20 +1,20 @@
 {
-    "name": "NBT Glint",
-    "description": "A client side mod for color glint",
-    "logo": "glint.webp",
+    "name": "Reforge Stone",
+    "description": "Add data-driven reforge stone system",
+    "logo": "rs.webp",
     "mod_meta": {
-        "id": "nbt_glint",
-        "package": "com.iafenvoy.glint",
+        "id": "reforge_stone",
+        "package": "com.iafenvoy.reforgestone",
         "license": "All Right Reserved"
     },
     "ids": {
-        "gh": "CodeOfArdonia/NBTGlint",
+        "gh": "CodeOfArdonia/ReforgeStone",
         "cf": "1219340",
         "mr": "NyQ35wXb"
     },
     "tags": [
-        "Decoration",
-        "Library"
+        "Library",
+        "Utility"
     ],
     "version": "1.20.1",
     "loaders": [

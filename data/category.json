@@ -48,6 +48,7 @@
             "banner",
             "economy",
             "gamerule",
+            "rs",
             "unified",
             "tags"
         ]
@@ -63,7 +64,7 @@
             "tbd",
             "tsm",
             "hotkeys",
-            "glint",
+            "tooltips",
             "mdc",
             "elb",
             "cetv"
