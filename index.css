@@ -27,6 +27,11 @@ p {
     font-size: larger;
 }
 
+.working-img {
+    text-align: center;
+    height: 200px;
+}
+
 .link-group {
     justify-content: center;
     left: 0;

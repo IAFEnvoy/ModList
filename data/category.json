@@ -82,7 +82,8 @@
             "uranus",
             "neptune",
             "mercury",
-            "random_library"
+            "random_library",
+            "i18n"
         ]
     },
     {
