@@ -16,6 +16,18 @@
         ]
     },
     {
+        "title": "Integration",
+        "display": {
+            "logo": true,
+            "status": true,
+            "modal": true
+        },
+        "items": [
+            "avaritia_delight",
+            "dsiafi"
+        ]
+    },
+    {
         "title": "Animation Fan Work",
         "display": {
             "logo": true,
@@ -39,17 +51,28 @@
         },
         "items": [
             "ghast",
-            "resource",
-            "resource_world",
             "netherite",
             "put",
             "tameable",
             "tame_tools",
             "banner",
             "economy",
-            "gamerule",
             "rs",
-            "unified",
+            "unified"
+        ]
+    },
+    {
+        "title": "Server Utility",
+        "display": {
+            "logo": true,
+            "status": true,
+            "modal": true
+        },
+        "items": [
+            "resource",
+            "resource_world",
+            "random_command",
+            "gamerule",
             "tags"
         ]
     },
@@ -62,9 +85,9 @@
         },
         "items": [
             "tbd",
-            "tsm",
-            "hotkeys",
             "tooltips",
+            "hotkeys",
+            "tsm",
             "mdc",
             "elb",
             "cetv"
@@ -81,7 +104,6 @@
             "jupiter",
             "uranus",
             "neptune",
-            "mercury",
             "random_library",
             "i18n"
         ]

@@ -1,0 +1,24 @@
+{
+    "name": "Avaritia's Delight",
+    "description": "Add avaritia style food base on farmer's delight.",
+    "logo": "avaritia_delight.webp",
+    "mod_meta": {
+        "id": "avaritia_delight",
+        "package": "committee.nova.mods.avaritiadelight",
+        "license": "MIT"
+    },
+    "ids": {
+        "gh": "Nova-Committee/AvaritiaDelight",
+        "cf": "1289374",
+        "mr": "gtX73iTU"
+    },
+    "tags": [
+        "Food"
+    ],
+    "version": "1.20.1",
+    "loaders": [
+        "Forge",
+        "NeoForge"
+    ],
+    "status": "Maintaining"
+}

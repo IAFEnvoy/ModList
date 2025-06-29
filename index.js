@@ -16,6 +16,8 @@ window.onload = async _ => {
     const data = await fetch('./data/category.json').then(res => res.json())
     let root = document.getElementById('root')
     for (let { title, subtitle, display, items } of data) {
+        //<br>
+        root.appendChild(document.createElement('br'))
         //h2 title
         root.appendChild(nodeWithText('h2', title))
         //h3 subtitle

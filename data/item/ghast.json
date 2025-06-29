@@ -16,7 +16,7 @@
         "Mobs",
         "World Gen"
     ],
-    "version": "1.20.1",
+    "version": "1.19.4~1.21.4",
     "loaders": [
         "Fabric",
         "Forge",

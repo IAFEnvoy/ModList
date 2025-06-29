@@ -1,0 +1,26 @@
+{
+    "name": "Random Command",
+    "description": "A collection of useful, permission controllable commands.",
+    "logo": "random_command.webp",
+    "mod_meta": {
+        "id": "random_command",
+        "package": "com.iafenvoy.random.command",
+        "license": "MIT"
+    },
+    "ids": {
+        "gh": "CodeOfArdonia/RandomCommand",
+        "cf": "1161438",
+        "mr": "Pga1YRpa"
+    },
+    "tags": [
+        "Management",
+        "Utility"
+    ],
+    "version": "1.20.1",
+    "loaders": [
+        "Fabric",
+        "Forge",
+        "NeoForge"
+    ],
+    "status": "Maintaining"
+}
