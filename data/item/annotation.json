@@ -10,7 +10,8 @@
     "ids": {
         "gh": "IAFEnvoy/AnnotationLib",
         "cf": "1010826",
-        "mr": "hYBRpZ1d"
+        "mr": "hYBRpZ1d",
+        "wiki": "https://docs.iafenvoy.com/docs/library/annotation-lib"
     },
     "tags": [
         "Utility"

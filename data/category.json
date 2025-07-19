@@ -36,8 +36,9 @@
         },
         "items": [
             "rainimator",
-            "av",
             "sow",
+            "soo",
+            "av",
             "nezha",
             "worlds_apart"
         ]
@@ -88,7 +89,7 @@
             "tooltips",
             "hotkeys",
             "tsm",
-            "mdc",
+            "bgm",
             "elb",
             "cetv"
         ]

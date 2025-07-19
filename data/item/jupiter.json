@@ -10,7 +10,8 @@
     "ids": {
         "gh": "IAFEnvoy/Jupiter",
         "cf": "1072905",
-        "mr": "XbiLGMMU"
+        "mr": "XbiLGMMU",
+        "wiki": "https://docs.iafenvoy.com/docs/library/jupiter"
     },
     "tags": [
         "Utility"

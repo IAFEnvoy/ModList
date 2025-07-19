@@ -80,6 +80,8 @@ const openModal = (title, description, imgSrc, mod_meta, ids, tags) => {
     document.getElementById('curseforgeLink').href = 'https://www.curseforge.com/projects/' + ids.cf
     document.getElementById('modrinthLink').hidden = !ids.mr
     document.getElementById('modrinthLink').href = 'https://modrinth.com/project/' + ids.mr
+    document.getElementById('wikiLink').hidden = !ids.wiki
+    document.getElementById('wikiLink').href = ids.wiki
 
     // 添加标签
     const tagsContainer = document.getElementById('modalTags')

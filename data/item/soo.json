@@ -1,0 +1,23 @@
+{
+    "name": "Songs of Origins",
+    "description": "Integration between Origins and Songs of War",
+    "logo": "soo.webp",
+    "mod_meta": {
+        "id": "songs_of_origins",
+        "package": "com.iafenvoy.soo",
+        "license": "All Right Reserved"
+    },
+    "ids": {
+        "gh": "CodeOfArdonia/SongsOfOrigins",
+        "cf": "1101919",
+        "mr": "XFMVVQss"
+    },
+    "tags": [
+        "RPG"
+    ],
+    "version": "1.20.1",
+    "loaders": [
+        "Fabric"
+    ],
+    "status": "Maintaining"
+}

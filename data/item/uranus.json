@@ -10,7 +10,8 @@
     "ids": {
         "gh": "IAFEnvoy/Uranus",
         "cf": "1010827",
-        "mr": "3Acxy864"
+        "mr": "3Acxy864",
+        "wiki": "https://docs.iafenvoy.com/docs/library/uranus"
     },
     "tags": [
         "Utility"

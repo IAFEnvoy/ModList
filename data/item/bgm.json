@@ -1,0 +1,25 @@
+{
+    "name": "BGM Player",
+    "description": "A more format supported, adjustable and continuous bgm system.",
+    "logo": "bgm.webp",
+    "mod_meta": {
+        "id": "bgm_player",
+        "package": "com.iafenvoy.bgm.player",
+        "license": "LGPL-3.0"
+    },
+    "ids": {
+        "gh": "IAFEnvoy/BGMPlayer",
+        "cf": "1130568",
+        "mr": "NZuFvKrt"
+    },
+    "tags": [
+        "Utility"
+    ],
+    "version": "1.20.1, 1.21.1",
+    "loaders": [
+        "Fabric",
+        "Forge",
+        "NeoForge"
+    ],
+    "status": "Low Priority"
+}

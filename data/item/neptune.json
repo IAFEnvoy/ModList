@@ -10,7 +10,8 @@
     "ids": {
         "gh": "CodeOfArdonia/Neptune",
         "cf": "1071077",
-        "mr": "1imAYnrk"
+        "mr": "1imAYnrk",
+        "wiki": "https://docs.iafenvoy.com/docs/library/neptune"
     },
     "tags": [
         "Utility"
