@@ -54,6 +54,8 @@
             "ghast",
             "netherite",
             "put",
+            "throwable",
+            "dont_hit_me",
             "tameable",
             "tame_tools",
             "banner",

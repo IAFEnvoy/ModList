@@ -1,0 +1,25 @@
+{
+    "name": "Don't hit me!",
+    "description": "No longer kicked by invalid entity and sniffer.",
+    "logo": "dont_hit_me.webp",
+    "mod_meta": {
+        "id": "dont_hit_me",
+        "package": "com.iafenvoy.dhm",
+        "license": "LGPL-3.0"
+    },
+    "ids": {
+        "gh": "CodeOfArdonia/Throwable",
+        "cf": "1315272",
+        "mr": "6tXjyESf"
+    },
+    "tags": [
+        "Optimization"
+    ],
+    "version": "1.20.1, 1.21.1",
+    "loaders": [
+        "Fabric",
+        "Forge",
+        "NeoForge"
+    ],
+    "status": "Maintaining"
+}
