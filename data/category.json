@@ -56,12 +56,12 @@
             "put",
             "throwable",
             "dont_hit_me",
-            "tameable",
-            "tame_tools",
             "banner",
             "economy",
             "rs",
-            "unified"
+            "unified",
+            "tameable",
+            "tame_tools"
         ]
     },
     {
