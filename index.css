@@ -194,6 +194,10 @@ p {
     margin-top: 10px;
 }
 
+.description {
+    font-size: large;
+}
+
 .links {
     display: flex;
     align-items: center;
@@ -215,6 +219,21 @@ p {
 
 .links img:hover {
     transform: scale(1.2);
+}
+
+.centerDiv {
+    text-align: center;
+    justify-content: center;
+    display: flex;
+}
+
+table {
+    border-color: #333333;
+}
+
+th,
+td {
+    padding: 5px 10px;
 }
 
 @media (prefers-color-scheme: dark) {
@@ -255,5 +274,9 @@ p {
     .close:hover,
     .close:focus {
         color: #fff;
+    }
+
+    table {
+        border-color: #cccccc;
     }
 }

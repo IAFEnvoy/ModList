@@ -16,8 +16,18 @@
     "tags": [
         "Utility"
     ],
-    "version": "1.17.1~1.20.1",
-    "loaders": [
-        "Fabric"
-    ]
+    "versions": {
+        "1.17.1": {
+            "Fabric": "All"
+        },
+        "1.18.2": {
+            "Fabric": "All"
+        },
+        "1.19.4": {
+            "Fabric": "All"
+        },
+        "1.20.1": {
+            "Fabric": "All"
+        }
+    }
 }

@@ -1,3 +1,5 @@
+let configuration, data
+
 const nodeWithText = (type, text) => {
     let node = document.createElement(type)
     node.innerText = text
@@ -12,8 +14,8 @@ const spanWithTextAndColor = (text, color) => {
 }
 
 window.onload = async _ => {
-    const configuration = await fetch('./data/configuration.json').then(res => res.json())
-    const data = await fetch('./data/category.json').then(res => res.json())
+    configuration = await fetch('./data/configuration.json').then(res => res.json())
+    data = await fetch('./data/category.json').then(res => res.json())
     let root = document.getElementById('root')
     for (let { title, subtitle, display, items } of data) {
         //<br>
@@ -27,7 +29,7 @@ window.onload = async _ => {
         container.className = 'container'
         root.appendChild(container)
         for (let i of items) {
-            let { name, description, logo, mod_meta, ids, tags, version, loaders, status, coop } = await fetch(`./data/item/${i}.json`).then(res => res.json())
+            let { name, description, logo, mod_meta, ids, tags, versions, status, coop } = await fetch(`./data/item/${i}.json`).then(res => res.json())
             let item = document.createElement('div')
             item.className = 'item'
             container.appendChild(item)
@@ -49,26 +51,48 @@ window.onload = async _ => {
             mainFlex.appendChild(nameH1)
             item.append(mainFlex)
 
+            // Collect versions
+            let versionsTable = '', loaders = [], version = '???'
+            if (versions) {
+                let loaderTemp = {}
+                Object.values(versions).forEach(x => loaderTemp = { ...loaderTemp, ...x })
+                loaders = Object.keys(loaderTemp)
+                versionsTable = `<thead><tr><th></th>${loaders.map(x => `<th>${x}</th>`).join('')}</tr></thead>`
+                versionsTable += '<tbody>'
+                let allVersions = Object.keys(versions)
+                for (let v of allVersions) {
+                    versionsTable += `<tr><td>${v}</td>`
+                    let obj = versions[v]
+                    for (let l of loaders)
+                        versionsTable += `<td>${configuration?.icons?.versions?.[obj[l] ?? ''] ?? ''}</td>`
+                    versionsTable += '</tr>'
+                }
+                versionsTable += '</tbody>'
+                if (allVersions.length == 1) version = allVersions[0]
+                else if (allVersions.length == 2) version = `${allVersions[0]}, ${allVersions[1]}`
+                else if (allVersions.length >= 3) version = `${allVersions[0]}~${allVersions[allVersions.length - 1]}`
+            }
+
             if (display.modal)
-                item.onclick = _ => openModal(name, description, `./logos/mods/${logo}`, mod_meta, ids, tags)
+                item.onclick = _ => openModal(name, description, `./logos/mods/${logo}`, mod_meta, ids, tags, versionsTable)
             else
                 item.appendChild(nodeWithText('h4', description))
 
             let tagsDiv = document.createElement('div')
             tagsDiv.className = 'tags'
-            tagsDiv.appendChild(spanWithTextAndColor(version, configuration.colors.version))
+            tagsDiv.appendChild(spanWithTextAndColor(version, configuration?.colors?.version ?? '#777777'))
             for (let l of loaders)
-                tagsDiv.appendChild(spanWithTextAndColor(l, configuration.colors.loader[l] ?? '#777777'))
+                tagsDiv.appendChild(spanWithTextAndColor(l, configuration?.colors?.loader?.[l] ?? '#777777'))
             if (display.status)
-                tagsDiv.appendChild(spanWithTextAndColor(status, configuration.colors.status[status] ?? '#777777'))
+                tagsDiv.appendChild(spanWithTextAndColor(status, configuration?.colors?.status?.[status] ?? '#777777'))
             if (coop)
-                tagsDiv.appendChild(spanWithTextAndColor('Co-Author: ' + coop.join(', '), configuration.colors.coop ?? '#777777'))
+                tagsDiv.appendChild(spanWithTextAndColor('Co-Author: ' + coop.join(', '), configuration?.colors?.coop ?? '#777777'))
             item.append(tagsDiv)
         }
     }
 }
 
-const openModal = (title, description, imgSrc, mod_meta, ids, tags) => {
+const openModal = (title, description, imgSrc, mod_meta, ids, tags, versionsTable) => {
     document.getElementById('modalTitle').innerText = title
     document.getElementById('modalDescription').innerText = description
     document.getElementById('modalImage').src = imgSrc
@@ -95,6 +119,8 @@ const openModal = (title, description, imgSrc, mod_meta, ids, tags) => {
     }
     if (ids.cf) tagsContainer.appendChild(constructModalSpan(`CFID: ${ids.cf}`, 'orange', ids.cf))
     if (ids.mr) tagsContainer.appendChild(constructModalSpan(`MRID: ${ids.mr}`, 'green', ids.mr))
+
+    document.getElementById('versions').innerHTML = versionsTable
 
     // 显示模态框
     const modal = document.getElementById('modal')

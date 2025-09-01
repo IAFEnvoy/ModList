@@ -16,11 +16,36 @@
         "Mobs",
         "World Gen"
     ],
-    "version": "1.19.4~1.21.4",
-    "loaders": [
-        "Fabric",
-        "Forge",
-        "NeoForge"
-    ],
+    "versions": {
+        "1.19.4": {
+            "Fabric": "All",
+            "Forge": "All"
+        },
+        "1.20(.1)": {
+            "Fabric": "All",
+            "Forge": "All",
+            "NeoForge": "All"
+        },
+        "1.20.4": {
+            "Fabric": "All",
+            "Forge": "None",
+            "NeoForge": "All"
+        },
+        "1.20.6": {
+            "Fabric": "All",
+            "Forge": "None",
+            "NeoForge": "All"
+        },
+        "1.21(.1)": {
+            "Fabric": "All",
+            "Forge": "None",
+            "NeoForge": "All"
+        },
+        "1.21.4": {
+            "Fabric": "All",
+            "Forge": "None",
+            "NeoForge": "All"
+        }
+    },
     "status": "Maintaining"
 }

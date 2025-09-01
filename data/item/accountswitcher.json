@@ -6,8 +6,18 @@
         "package": "iafenvoy.accountswitcher",
         "license": "GPL-3.0"
     },
-    "version": "1.16.5~1.19.3",
-    "loaders": [
-        "Fabric"
-    ]
+    "versions": {
+        "1.16.4/5": {
+            "Fabric": "All"
+        },
+        "1.17.1": {
+            "Fabric": "All"
+        },
+        "1.18.2": {
+            "Fabric": "All"
+        },
+        "1.19.3": {
+            "Fabric": "All"
+        }
+    }
 }

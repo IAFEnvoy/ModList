@@ -6,8 +6,9 @@
         "package": "com.iafenvoy.wetk",
         "license": "No License"
     },
-    "version": "1.20.1",
-    "loaders": [
-        "Fabric"
-    ]
+    "versions": {
+        "1.20.1": {
+            "Fabric": "All"
+        }
+    }
 }

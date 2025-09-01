@@ -6,8 +6,9 @@
         "package": "net.iafenvoy.cosmetics",
         "license": "GPL-3.0"
     },
-    "version": "1.16.5",
-    "loaders": [
-        "Fabric"
-    ]
+    "versions": {
+        "1.16.5": {
+            "Fabric": "All"
+        }
+    }
 }

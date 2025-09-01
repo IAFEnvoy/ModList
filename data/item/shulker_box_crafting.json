@@ -6,8 +6,9 @@
         "package": "iafenvoy.shulkerboxcrafting",
         "license": "No License"
     },
-    "version": "1.16.5",
-    "loaders": [
-        "Fabric"
-    ]
+    "versions": {
+        "1.16.5": {
+            "Fabric": "All"
+        }
+    }
 }

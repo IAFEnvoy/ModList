@@ -16,11 +16,12 @@
         "Mobs",
         "Utility"
     ],
-    "version": "1.20.1",
-    "loaders": [
-        "Fabric",
-        "Forge",
-        "NeoForge"
-    ],
+    "versions": {
+        "1.20.1": {
+            "Fabric": "All",
+            "Forge": "All",
+            "NeoForge": "All"
+        }
+    },
     "status": "Archived"
 }

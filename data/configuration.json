@@ -15,5 +15,14 @@
             "Archived": "grey"
         },
         "coop": "purple"
+    },
+    "icons": {
+        "versions": {
+            "": "",
+            "All": "✅",
+            "Partly": "🚧",
+            "Planned": "🔲",
+            "None": "❌"
+        }
     }
 }

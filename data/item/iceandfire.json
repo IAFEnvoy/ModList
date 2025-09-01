@@ -19,11 +19,17 @@
         "Equipment",
         "WorldGen"
     ],
-    "version": "1.20.1, 1.21.1",
-    "loaders": [
-        "Fabric",
-        "Forge",
-        "NeoForge"
-    ],
+    "versions": {
+        "1.20.1": {
+            "Fabric": "All",
+            "Forge": "All",
+            "NeoForge": "All"
+        },
+        "1.21.1": {
+            "Fabric": "All",
+            "Forge": "None",
+            "NeoForge": "All"
+        }
+    },
     "status": "Maintaining"
 }

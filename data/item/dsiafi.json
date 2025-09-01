@@ -16,9 +16,10 @@
         "Equipment",
         "Mobs"
     ],
-    "version": "1.21.1",
-    "loaders": [
-        "NeoForge"
-    ],
+    "versions": {
+        "1.21.1": {
+            "NeoForge": "All"
+        }
+    },
     "status": "Maintaining"
 }
