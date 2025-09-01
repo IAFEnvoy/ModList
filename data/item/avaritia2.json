@@ -17,13 +17,30 @@
         "Equipment"
     ],
     "versions": {
+        "1.18.2": {
+            "Fabric": "None",
+            "Forge": "All"
+        },
+        "1.19.2": {
+            "Fabric": "None",
+            "Forge": "All"
+        },
+        "1.19.4": {
+            "Fabric": "None",
+            "Forge": "All"
+        },
         "1.20.1": {
             "Fabric": "Partly",
             "Forge": "All",
             "NeoForge": "All"
         },
+        "1.20.4": {
+            "Fabric": "None",
+            "Forge": "None",
+            "NeoForge": "Partly"
+        },
         "1.21.1": {
-            "Fabric": "Planned",
+            "Fabric": "None",
             "Forge": "None",
             "NeoForge": "Partly"
         }

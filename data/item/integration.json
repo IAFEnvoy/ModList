@@ -1,0 +1,24 @@
+{
+    "name": "Integration",
+    "description": "Library for better mod integrations.",
+    "logo": "elb.webp",
+    "mod_meta": {
+        "id": "early_loading_bar",
+        "package": "com.iafenvoy.elb",
+        "license": "LGPL-3.0"
+    },
+    "ids": {
+        "gh": "IAFEnvoy/EarlyLoadingBar",
+        "cf": "1093364",
+        "mr": "B5CKa9gc"
+    },
+    "tags": [
+        "Utility"
+    ],
+    "versions": {
+        "All Versions": {
+            "Fabric": "All"
+        }
+    },
+    "status": "Out of Maintainence"
+}

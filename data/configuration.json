@@ -24,5 +24,13 @@
             "Planned": "🔲",
             "None": "❌"
         }
+    },
+    "misc": {
+        "ignoredInSupportedVersions": [
+            "",
+            "Planned",
+            "None"
+        ],
+        "versionConnector": "~"
     }
 }

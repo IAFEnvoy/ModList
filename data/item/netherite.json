@@ -48,6 +48,11 @@
             "Fabric": "All",
             "Forge": "None",
             "NeoForge": "All"
+        },
+        "1.21.4+": {
+            "Fabric": "Planned",
+            "Forge": "None",
+            "NeoForge": "Planned"
         }
     },
     "status": "Maintaining"

@@ -1,0 +1,67 @@
+{
+    "name": "Rollable",
+    "description": "Make elytra flying like driving an aircraft.",
+    "logo": "rollable.webp",
+    "mod_meta": {
+        "id": "rollable",
+        "package": "com.iafenvoy.rollable",
+        "license": "LGPL-3.0"
+    },
+    "ids": {
+        "gh": "IAFEnvoy/Rollable",
+        "cf": "1327097",
+        "mr": "VwRRiyby"
+    },
+    "tags": [
+        "Game Mechanics",
+        "Optimization"
+    ],
+    "versions": {
+        "1.16.5": {
+            "Fabric": "Planned",
+            "Forge": "Planned"
+        },
+        "1.17.1": {
+            "Fabric": "Planned",
+            "Forge": "Planned"
+        },
+        "1.18.2": {
+            "Fabric": "Planned",
+            "Forge": "Planned"
+        },
+        "1.19.2": {
+            "Fabric": "Planned",
+            "Forge": "Planned"
+        },
+        "1.19.4": {
+            "Fabric": "Planned",
+            "Forge": "Planned"
+        },
+        "1.20.1": {
+            "Fabric": "All",
+            "Forge": "All",
+            "NeoForge": "All"
+        },
+        "1.20.4": {
+            "Fabric": "Planned",
+            "Forge": "None",
+            "NeoForge": "Planned"
+        },
+        "1.20.6": {
+            "Fabric": "Planned",
+            "Forge": "None",
+            "NeoForge": "Planned"
+        },
+        "1.21.1": {
+            "Fabric": "Planned",
+            "Forge": "None",
+            "NeoForge": "Planned"
+        },
+        "1.21.4~1.21.8": {
+            "Fabric": "Planned",
+            "Forge": "None",
+            "NeoForge": "Planned"
+        }
+    },
+    "status": "Maintaining"
+}

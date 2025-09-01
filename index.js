@@ -68,9 +68,7 @@ window.onload = async _ => {
                     versionsTable += '</tr>'
                 }
                 versionsTable += '</tbody>'
-                if (allVersions.length == 1) version = allVersions[0]
-                else if (allVersions.length == 2) version = `${allVersions[0]}, ${allVersions[1]}`
-                else if (allVersions.length >= 3) version = `${allVersions[0]}~${allVersions[allVersions.length - 1]}`
+                version = buildMainVersion(allVersions, configuration?.misc?.versionConnector ?? '~')
             }
 
             if (display.modal)
@@ -90,6 +88,16 @@ window.onload = async _ => {
             item.append(tagsDiv)
         }
     }
+}
+
+const buildMainVersion = (allVersions, connector) => {
+    if (allVersions.length == 0) return '???'
+    if (allVersions.length == 1) return allVersions[0]
+    if (allVersions.length == 2) return `${allVersions[0]}, ${allVersions[1]}`
+    let start = allVersions[0], end = allVersions[allVersions.length - 1]
+    if (start.indexOf(connector) != -1) start = start.split(connector)[0]
+    if (end.indexOf(connector) != -1) end = end.split(connector)[1]
+    return start + connector + end
 }
 
 const openModal = (title, description, imgSrc, mod_meta, ids, tags, versionsTable) => {
