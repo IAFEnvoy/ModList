@@ -31,7 +31,7 @@
             "Forge": "None",
             "NeoForge": "All"
         },
-        "1.21.x": {
+        "1.21.1~1.21.8": {
             "Fabric": "All",
             "Forge": "None",
             "NeoForge": "All"

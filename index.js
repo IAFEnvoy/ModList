@@ -54,13 +54,13 @@ window.onload = async _ => {
             // Collect versions
             let versionsTable = '', loaders = [], version = '???'
             if (versions) {
-                let loaderTemp = {}
+                let loaderTemp = {}, availableVersions = [], ignored = configuration.misc.ignoredInSupportedVersions
+                Object.keys(versions).filter(x => Object.values(versions[x]).filter(y => ignored.indexOf(y) == -1).length > 0).forEach(x => availableVersions.push(x))
                 Object.values(versions).forEach(x => loaderTemp = { ...loaderTemp, ...x })
                 loaders = Object.keys(loaderTemp)
                 versionsTable = `<thead><tr><th></th>${loaders.map(x => `<th>${x}</th>`).join('')}</tr></thead>`
                 versionsTable += '<tbody>'
-                let allVersions = Object.keys(versions)
-                for (let v of allVersions) {
+                for (let v of Object.keys(versions)) {
                     versionsTable += `<tr><td>${v}</td>`
                     let obj = versions[v]
                     for (let l of loaders)
@@ -68,7 +68,7 @@ window.onload = async _ => {
                     versionsTable += '</tr>'
                 }
                 versionsTable += '</tbody>'
-                version = buildMainVersion(allVersions, configuration?.misc?.versionConnector ?? '~')
+                version = buildMainVersion(availableVersions, configuration?.misc?.versionConnector ?? '~')
             }
 
             if (display.modal)
