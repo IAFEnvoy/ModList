@@ -29,63 +29,66 @@ window.onload = async _ => {
         container.className = 'container'
         root.appendChild(container)
         for (let i of items) {
-            let { name, description, logo, mod_meta, ids, tags, versions, status, coop } = await fetch(`./data/item/${i}.json`).then(res => res.json())
             let item = document.createElement('div')
             item.className = 'item'
             container.appendChild(item)
 
-            let mainFlex = document.createElement('div')
-            if (display.logo) {
-                mainFlex.style.display = 'flex'
-                let img = document.createElement('img')
-                img.className = 'logo-img'
-                img.src = `./logos/mods/${logo}`
-                img.alt = logo
-                img.style.margin = '10px'
-                mainFlex.appendChild(img)
-            }
-            let nameH1 = document.createElement('h2')
-            nameH1.innerText = name
-            nameH1.style.margin = '10px'
-            nameH1.style.textAlign = 'center'
-            mainFlex.appendChild(nameH1)
-            item.append(mainFlex)
+            await fetch(`./data/item/${i}.json`).then(res => res.json()).then(json => {
+                let { name, description, logo, mod_meta, ids, tags, versions, status, coop } = json
 
-            // Collect versions
-            let versionsTable = '', loaders = [], version = '???'
-            if (versions) {
-                let loaderTemp = {}, availableVersions = [], ignored = configuration.misc.ignoredInSupportedVersions
-                Object.keys(versions).filter(x => Object.values(versions[x]).filter(y => ignored.indexOf(y) == -1).length > 0).forEach(x => availableVersions.push(x))
-                Object.values(versions).forEach(x => loaderTemp = { ...loaderTemp, ...x })
-                loaders = Object.keys(loaderTemp)
-                versionsTable = `<thead><tr><th></th>${loaders.map(x => `<th>${x}</th>`).join('')}</tr></thead>`
-                versionsTable += '<tbody>'
-                for (let v of Object.keys(versions)) {
-                    versionsTable += `<tr><td>${v}</td>`
-                    let obj = versions[v]
-                    for (let l of loaders)
-                        versionsTable += `<td>${configuration?.icons?.versions?.[obj[l] ?? ''] ?? ''}</td>`
-                    versionsTable += '</tr>'
+                let mainFlex = document.createElement('div')
+                if (display.logo) {
+                    mainFlex.style.display = 'flex'
+                    let img = document.createElement('img')
+                    img.className = 'logo-img'
+                    img.src = `./logos/mods/${logo}`
+                    img.alt = logo
+                    img.style.margin = '10px'
+                    mainFlex.appendChild(img)
                 }
-                versionsTable += '</tbody>'
-                version = buildMainVersion(availableVersions, configuration?.misc?.versionConnector ?? '~')
-            }
+                let nameH1 = document.createElement('h2')
+                nameH1.innerText = name
+                nameH1.style.margin = '10px'
+                nameH1.style.textAlign = 'center'
+                mainFlex.appendChild(nameH1)
+                item.append(mainFlex)
 
-            if (display.modal)
-                item.onclick = _ => openModal(name, description, `./logos/mods/${logo}`, mod_meta, ids, tags, versionsTable)
-            else
-                item.appendChild(nodeWithText('h4', description))
+                // Collect versions
+                let versionsTable = '', loaders = [], version = '???'
+                if (versions) {
+                    let loaderTemp = {}, availableVersions = [], ignored = configuration.misc.ignoredInSupportedVersions
+                    Object.keys(versions).filter(x => Object.values(versions[x]).filter(y => ignored.indexOf(y) == -1).length > 0).forEach(x => availableVersions.push(x))
+                    Object.values(versions).forEach(x => loaderTemp = { ...loaderTemp, ...x })
+                    loaders = Object.keys(loaderTemp)
+                    versionsTable = `<thead><tr><th></th>${loaders.map(x => `<th>${x}</th>`).join('')}</tr></thead>`
+                    versionsTable += '<tbody>'
+                    for (let v of Object.keys(versions)) {
+                        versionsTable += `<tr><td>${v}</td>`
+                        let obj = versions[v]
+                        for (let l of loaders)
+                            versionsTable += `<td>${configuration?.icons?.versions?.[obj[l] ?? ''] ?? ''}</td>`
+                        versionsTable += '</tr>'
+                    }
+                    versionsTable += '</tbody>'
+                    version = buildMainVersion(availableVersions, configuration?.misc?.versionConnector ?? '~')
+                }
 
-            let tagsDiv = document.createElement('div')
-            tagsDiv.className = 'tags'
-            tagsDiv.appendChild(spanWithTextAndColor(version, configuration?.colors?.version ?? '#777777'))
-            for (let l of loaders)
-                tagsDiv.appendChild(spanWithTextAndColor(l, configuration?.colors?.loader?.[l] ?? '#777777'))
-            if (display.status)
-                tagsDiv.appendChild(spanWithTextAndColor(status, configuration?.colors?.status?.[status] ?? '#777777'))
-            if (coop)
-                tagsDiv.appendChild(spanWithTextAndColor('Co-Author: ' + coop.join(', '), configuration?.colors?.coop ?? '#777777'))
-            item.append(tagsDiv)
+                if (display.modal)
+                    item.onclick = _ => openModal(name, description, `./logos/mods/${logo}`, mod_meta, ids, tags, versionsTable)
+                else
+                    item.appendChild(nodeWithText('h4', description))
+
+                let tagsDiv = document.createElement('div')
+                tagsDiv.className = 'tags'
+                tagsDiv.appendChild(spanWithTextAndColor(version, configuration?.colors?.version ?? '#777777'))
+                for (let l of loaders)
+                    tagsDiv.appendChild(spanWithTextAndColor(l, configuration?.colors?.loader?.[l] ?? '#777777'))
+                if (display.status)
+                    tagsDiv.appendChild(spanWithTextAndColor(status, configuration?.colors?.status?.[status] ?? '#777777'))
+                if (coop)
+                    tagsDiv.appendChild(spanWithTextAndColor('Co-Author: ' + coop.join(', '), configuration?.colors?.coop ?? '#777777'))
+                item.append(tagsDiv)
+            })
         }
     }
 }
