@@ -33,7 +33,7 @@ window.onload = async _ => {
             item.className = 'item'
             container.appendChild(item)
 
-            await fetch(`./data/item/${i}.json`).then(res => res.json()).then(json => {
+            fetch(`./data/item/${i}.json`).then(res => res.json()).then(json => {
                 let { name, description, logo, mod_meta, ids, tags, versions, status, coop } = json
 
                 let mainFlex = document.createElement('div')
