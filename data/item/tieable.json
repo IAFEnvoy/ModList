@@ -1,0 +1,27 @@
+{
+    "name": "Tieable",
+    "description": "Add universal tied blocks for decoration.",
+    "logo": "tieable.webp",
+    "mod_meta": {
+        "id": "tieable",
+        "package": "com.iafenvoy.tieable",
+        "license": "All Right Reserved"
+    },
+    "ids": {
+        "gh": "CodeOfArdonia/Tieable",
+        "cf": "1341640",
+        "mr": "cc6tDClY"
+    },
+    "tags": [
+        "Decoration",
+        "Storage"
+    ],
+    "versions": {
+        "1.20.1": {
+            "Fabric": "All",
+            "Forge": "All",
+            "NeoForge": "All"
+        }
+    },
+    "status": "Maintaining"
+}

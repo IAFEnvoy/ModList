@@ -55,6 +55,7 @@
             "netherite",
             "put",
             "throwable",
+            "tieable",
             "dont_hit_me",
             "banner",
             "economy",
@@ -109,7 +110,8 @@
             "uranus",
             "neptune",
             "random_library",
-            "i18n"
+            "i18n",
+            "integration"
         ]
     },
     {

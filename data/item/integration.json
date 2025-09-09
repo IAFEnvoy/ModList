@@ -1,24 +1,26 @@
 {
     "name": "Integration",
     "description": "Library for better mod integrations.",
-    "logo": "elb.webp",
+    "logo": "integration.webp",
     "mod_meta": {
-        "id": "early_loading_bar",
-        "package": "com.iafenvoy.elb",
+        "id": "integration",
+        "package": "com.iafenvoy.integration",
         "license": "LGPL-3.0"
     },
     "ids": {
-        "gh": "IAFEnvoy/EarlyLoadingBar",
-        "cf": "1093364",
-        "mr": "B5CKa9gc"
+        "gh": "IAFEnvoy/Integration",
+        "cf": "1329917",
+        "mr": "JC3i2loS"
     },
     "tags": [
         "Utility"
     ],
     "versions": {
         "All Versions": {
-            "Fabric": "All"
+            "Fabric": "All",
+            "Forge": "All",
+            "NeoForge": "All"
         }
     },
-    "status": "Out of Maintainence"
+    "status": "Low Priority"
 }
