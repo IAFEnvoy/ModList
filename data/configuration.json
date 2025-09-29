@@ -11,18 +11,37 @@
             "Developing": "aqua",
             "Maintaining": "green",
             "Low Priority": "magenta",
-            "Out of Maintainence": "red",
-            "Archived": "grey"
+            "End Support": "red"
         },
         "coop": "purple"
     },
     "icons": {
         "versions": {
-            "": "",
-            "All": "✅",
-            "Partly": "🚧",
-            "Planned": "🔲",
-            "None": "❌"
+            "": {},
+            "All": {
+                "emoji": "✅",
+                "text": "Fully Supported"
+            },
+            "Partly": {
+                "emoji": "🚧",
+                "text": "Partly Supported"
+            },
+            "Planned": {
+                "emoji": "🔲",
+                "text": "Planned Supported"
+            },
+            "BugFix": {
+                "emoji": "🐛",
+                "text": "Bug Fix Only"
+            },
+            "Ended": {
+                "emoji": "🔚",
+                "text": "Ended Supported"
+            },
+            "None": {
+                "emoji": "❌",
+                "text": "No Support Planned"
+            }
         }
     },
     "misc": {

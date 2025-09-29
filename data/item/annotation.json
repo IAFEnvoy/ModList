@@ -18,16 +18,16 @@
     ],
     "versions": {
         "1.17.1": {
-            "Fabric": "All"
+            "Fabric": "Ended"
         },
         "1.18.2": {
-            "Fabric": "All"
+            "Fabric": "Ended"
         },
         "1.19.4": {
-            "Fabric": "All"
+            "Fabric": "Ended"
         },
         "1.20.1": {
-            "Fabric": "All"
+            "Fabric": "Ended"
         }
     }
 }

@@ -55,7 +55,7 @@ window.onload = async _ => {
                 item.append(mainFlex)
 
                 // Collect versions
-                let versionsTable = '', loaders = [], version = '???'
+                let versionsTable = '', loaders = [], version = '???', usedStatus = new Set()
                 if (versions) {
                     let loaderTemp = {}, availableVersions = [], ignored = configuration.misc.ignoredInSupportedVersions
                     Object.keys(versions).filter(x => Object.values(versions[x]).filter(y => ignored.indexOf(y) == -1).length > 0).forEach(x => availableVersions.push(x))
@@ -66,8 +66,11 @@ window.onload = async _ => {
                     for (let v of Object.keys(versions)) {
                         versionsTable += `<tr><td>${v}</td>`
                         let obj = versions[v]
-                        for (let l of loaders)
-                            versionsTable += `<td>${configuration?.icons?.versions?.[obj[l] ?? ''] ?? ''}</td>`
+                        for (let l of loaders) {
+                            usedStatus.add(obj[l])
+                            let status = configuration?.icons?.versions?.[obj[l] ?? '']
+                            versionsTable += `<td>${status?.emoji ?? ''}</td>`
+                        }
                         versionsTable += '</tr>'
                     }
                     versionsTable += '</tbody>'
@@ -75,7 +78,7 @@ window.onload = async _ => {
                 }
 
                 if (display.modal)
-                    item.onclick = _ => openModal(name, description, `./logos/mods/${logo}`, mod_meta, ids, tags, versionsTable)
+                    item.onclick = _ => openModal(name, description, `./logos/mods/${logo}`, mod_meta, ids, tags, usedStatus, versionsTable)
                 else
                     item.appendChild(nodeWithText('h4', description))
 
@@ -107,7 +110,7 @@ const buildMainVersion = (allVersions, connector) => {
     return start + connector + end
 }
 
-const openModal = (title, description, imgSrc, mod_meta, ids, tags, versionsTable) => {
+const openModal = (title, description, imgSrc, modMeta, ids, tags, usedStatus, versionsTable) => {
     document.getElementById('modalTitle').innerText = title
     document.getElementById('modalDescription').innerText = description
     document.getElementById('modalImage').src = imgSrc
@@ -128,13 +131,16 @@ const openModal = (title, description, imgSrc, mod_meta, ids, tags, versionsTabl
     tags.forEach(tag => tagsContainer.appendChild(constructModalSpan(tag, '#007BFF')))
     tagsContainer.appendChild(document.createElement('br'))
     tagsContainer.innerHTML += 'Click To Copy: '
-    if (mod_meta?.id) {
-        tagsContainer.appendChild(constructModalSpan(`MODID: ${mod_meta.id}`, 'grey', mod_meta.id))
+    if (modMeta?.id) {
+        tagsContainer.appendChild(constructModalSpan(`MODID: ${modMeta.id}`, 'grey', modMeta.id))
         tagsContainer.appendChild(document.createElement('br'))
     }
     if (ids.cf) tagsContainer.appendChild(constructModalSpan(`CFID: ${ids.cf}`, 'orange', ids.cf))
     if (ids.mr) tagsContainer.appendChild(constructModalSpan(`MRID: ${ids.mr}`, 'green', ids.mr))
 
+    //添加版本信息
+    let versionConfig = configuration?.icons?.versions ?? {}
+    document.getElementById('versionLegend').innerHTML = Object.keys(versionConfig).filter(x => usedStatus.has(x)).map(x => versionConfig[x] ?? {}).map(x => x.emoji + x.text).join('<br>')
     document.getElementById('versions').innerHTML = versionsTable
 
     // 显示模态框

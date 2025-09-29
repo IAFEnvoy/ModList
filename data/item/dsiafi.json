@@ -1,7 +1,7 @@
 {
     "name": "Dragon Survival: IAF Integration",
     "description": "Integration between Dragon Survival and Ice And Fire CE",
-    "logo": "dsiafi.jpg",
+    "logo": "dsiafi.webp",
     "mod_meta": {
         "id": "dragon_survival_iaf_integration",
         "package": "com.iafenvoy.dsiafi",

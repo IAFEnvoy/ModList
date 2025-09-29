@@ -1,0 +1,25 @@
+{
+    "name": "Create: Shape Craft",
+    "description": "Processing and create shapes with Create.",
+    "logo": "shape.webp",
+    "mod_meta": {
+        "id": "create_shape_craft",
+        "package": "com.iafenvoy.create.shape",
+        "license": "LGPL-3.0"
+    },
+    "ids": {
+        "gh": "IAFEnvoy/CreateShapeCraft",
+        "cf": "1350970",
+        "mr": "CvGASpH9"
+    },
+    "tags": [
+        "Technology",
+        "Transportation"
+    ],
+    "versions": {
+        "1.21.1": {
+            "NeoForge": "All"
+        }
+    },
+    "status": "Maintaining"
+}

@@ -19,8 +19,8 @@
     ],
     "versions": {
         "1.20.1": {
-            "Fabric": "All"
+            "Fabric": "Ended"
         }
     },
-    "status": "Archived"
+    "status": "End Support"
 }
