@@ -55,12 +55,13 @@ window.onload = async _ => {
                 item.append(mainFlex)
 
                 // Collect versions
-                let versionsTable = '', loaders = [], version = '???', usedStatus = new Set()
+                let versionsTable = '', loaders = [], availableLoaders = [], version = '???', usedStatus = new Set()
                 if (versions) {
                     let loaderTemp = {}, availableVersions = [], ignored = configuration.misc.ignoredInSupportedVersions
                     Object.keys(versions).filter(x => Object.values(versions[x]).filter(y => ignored.indexOf(y) == -1).length > 0).forEach(x => availableVersions.push(x))
                     Object.values(versions).forEach(x => loaderTemp = { ...loaderTemp, ...x })
                     loaders = Object.keys(loaderTemp)
+                    availableLoaders = loaders.filter(x => Object.values(versions).filter(d => d[x] && ignored.indexOf(d[x]) == -1).length > 0)
                     versionsTable = `<thead><tr><th></th>${loaders.map(x => `<th>${x}</th>`).join('')}</tr></thead>`
                     versionsTable += '<tbody>'
                     for (let v of Object.keys(versions)) {
@@ -85,7 +86,7 @@ window.onload = async _ => {
                 let tagsDiv = document.createElement('div')
                 tagsDiv.className = 'tags'
                 tagsDiv.appendChild(spanWithTextAndColor(version, configuration?.colors?.version ?? '#777777'))
-                for (let l of loaders)
+                for (let l of availableLoaders)
                     tagsDiv.appendChild(spanWithTextAndColor(l, configuration?.colors?.loader?.[l] ?? '#777777'))
                 if (display.status)
                     tagsDiv.appendChild(spanWithTextAndColor(status, configuration?.colors?.status?.[status] ?? '#777777'))
