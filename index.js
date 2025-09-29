@@ -1,4 +1,4 @@
-let configuration, data
+let configuration, data, loadingCounter = 0
 
 const nodeWithText = (type, text) => {
     let node = document.createElement(type)
@@ -33,6 +33,7 @@ window.onload = async _ => {
             item.className = 'item'
             container.appendChild(item)
 
+            loadingCounter++
             fetch(`./data/item/${i}.json`).then(res => res.json()).then(json => {
                 let { name, description, logo, mod_meta, ids, tags, versions, status, coop } = json
 
@@ -88,6 +89,9 @@ window.onload = async _ => {
                 if (coop)
                     tagsDiv.appendChild(spanWithTextAndColor('Co-Author: ' + coop.join(', '), configuration?.colors?.coop ?? '#777777'))
                 item.append(tagsDiv)
+
+                loadingCounter--
+                if (loadingCounter == 0) document.getElementById('spinner').classList.add('hidden');
             })
         }
     }
