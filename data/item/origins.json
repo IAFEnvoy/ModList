@@ -1,0 +1,26 @@
+{
+    "name": "Origins (NeoForge)",
+    "description": "Fully rewrite and neoforged Origins Mod",
+    "logo": "origins.webp",
+    "mod_meta": {
+        "id": "origins",
+        "package": "com.iafenvoy.origins",
+        "license": "MIT"
+    },
+    "ids": {
+        "gh": "IAFEnvoy/Origins-NeoForge",
+        "cf": "1375372",
+        "mr": "QaMa6tXQ"
+    },
+    "tags": [
+        "Adventure",
+        "Game Mechanics",
+        "Library"
+    ],
+    "versions": {
+        "1.21.1": {
+            "NeoForge": "All"
+        }
+    },
+    "status": "Developing"
+}
