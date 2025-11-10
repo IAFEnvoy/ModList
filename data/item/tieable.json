@@ -23,9 +23,9 @@
             "NeoForge": "All"
         },
         "1.21.1": {
-            "Fabric": "Planned",
+            "Fabric": "All",
             "Forge": "None",
-            "NeoForge": "Planned"
+            "NeoForge": "All"
         }
     },
     "status": "Maintaining"

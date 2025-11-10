@@ -20,6 +20,11 @@
             "Fabric": "All",
             "Forge": "All",
             "NeoForge": "All"
+        },
+        "1.21.1": {
+            "Fabric": "All",
+            "Forge": "None",
+            "NeoForge": "All"
         }
     },
     "status": "Maintaining"

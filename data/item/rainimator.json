@@ -23,6 +23,11 @@
             "Fabric": "All",
             "Forge": "All",
             "NeoForge": "All"
+        },
+        "1.21.1": {
+            "Fabric": "None",
+            "Forge": "None",
+            "NeoForge": "Planned"
         }
     },
     "status": "Low Priority"
