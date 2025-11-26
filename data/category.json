@@ -10,10 +10,7 @@
             "iceandfire",
             "iafpatcher",
             "avaritia2",
-            "origins",
-            "avaritia",
-            "dm",
-            "supporoform"
+            "origins"
         ]
     },
     {
@@ -26,6 +23,18 @@
         "items": [
             "avaritia_delight",
             "dsiafi"
+        ]
+    },
+    {
+        "title": "Minigame",
+        "display": {
+            "logo": true,
+            "status": true,
+            "modal": true
+        },
+        "items": [
+            "shape",
+            "minedash"
         ]
     },
     {
@@ -57,14 +66,9 @@
             "put",
             "throwable",
             "tieable",
-            "shape",
             "dont_hit_me",
             "economy",
-            "rs",
-            "banner",
-            "unified",
-            "tameable",
-            "tame_tools"
+            "rs"
         ]
     },
     {
@@ -78,8 +82,7 @@
             "resource",
             "resource_world",
             "random_command",
-            "gamerule",
-            "tags"
+            "gamerule"
         ]
     },
     {
@@ -94,10 +97,7 @@
             "tooltips",
             "hotkeys",
             "tsm",
-            "bgm",
-            "rollable",
-            "elb",
-            "cetv"
+            "bgm"
         ]
     },
     {
@@ -112,12 +112,11 @@
             "uranus",
             "neptune",
             "i18n",
-            "integration",
-            "random_library"
+            "integration"
         ]
     },
     {
-        "title": "Old Project",
+        "title": "Ended Support",
         "display": {
             "logo": true,
             "status": false,
@@ -126,7 +125,19 @@
         "items": [
             "annotation",
             "loadingmgr",
-            "pendulum"
+            "pendulum",
+            "avaritia",
+            "dm",
+            "supporoform",
+            "banner",
+            "unified",
+            "tameable",
+            "tame_tools",
+            "tags",
+            "rollable",
+            "elb",
+            "cetv",
+            "random_library"
         ]
     },
     {

@@ -13,13 +13,12 @@
         "mr": "CvGASpH9"
     },
     "tags": [
-        "Technology",
-        "Transportation"
+        "Minigame"
     ],
     "versions": {
         "1.21.1": {
             "NeoForge": "All"
         }
     },
-    "status": "Maintaining"
+    "status": "Developing"
 }

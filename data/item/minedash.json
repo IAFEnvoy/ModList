@@ -1,0 +1,24 @@
+{
+    "name": "MineDash",
+    "description": "Play Geometry Dash in Minecraft",
+    "logo": "minedash.webp",
+    "mod_meta": {
+        "id": "minedash",
+        "package": "com.iafenvoy.minedash",
+        "license": "All Right Reserved"
+    },
+    "ids": {
+        "gh": "IAFEnvoy/MineDash",
+        "cf": "1392151",
+        "mr": "Yx5sYhLA"
+    },
+    "tags": [
+        "Minigame"
+    ],
+    "versions": {
+        "1.21.1": {
+            "NeoForge": "All"
+        }
+    },
+    "status": "Maintaining"
+}
