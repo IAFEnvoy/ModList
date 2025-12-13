@@ -1,14 +1,14 @@
 {
-    "name": "Global Gamerule",
+    "name": "The Ruler",
     "description": "Set default game rules cross saves",
-    "logo": "gamerule.webp",
+    "logo": "ruler.webp",
     "mod_meta": {
-        "id": "global_game_rule",
-        "package": "com.iafenvoy.globalgamerule",
+        "id": "the_ruler",
+        "package": "com.iafenvoy.ruler",
         "license": "LGPL-3.0"
     },
     "ids": {
-        "gh": "IAFEnvoy/GlobalGameRule",
+        "gh": "IAFEnvoy/TheRuler",
         "cf": "1060896",
         "mr": "226Q16YJ"
     },
@@ -42,5 +42,5 @@
             "NeoForge": "All"
         }
     },
-    "status": "Low Priority"
+    "status": "Rewrite Queued"
 }

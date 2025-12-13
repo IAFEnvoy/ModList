@@ -18,12 +18,12 @@
     ],
     "versions": {
         "1.16.5": {
-            "Fabric": "All",
-            "Forge": "All"
+            "Fabric": "Ended",
+            "Forge": "Ended"
         },
         "1.17.1": {
-            "Fabric": "All",
-            "Forge": "All"
+            "Fabric": "Ended",
+            "Forge": "Ended"
         },
         "1.18.x": {
             "Fabric": "All",

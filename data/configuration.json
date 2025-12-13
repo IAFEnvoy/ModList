@@ -10,8 +10,9 @@
             "Not Release Yet": "pink",
             "Developing": "aqua",
             "Maintaining": "green",
+            "Rewrite Queued": "darkcyan",
             "Low Priority": "magenta",
-            "End Support": "red"
+            "Out of Maintainence": "red"
         },
         "coop": "purple"
     },

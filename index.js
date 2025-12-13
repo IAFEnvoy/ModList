@@ -79,7 +79,7 @@ window.onload = async _ => {
                 }
 
                 if (display.modal)
-                    item.onclick = _ => openModal(name, description, `./logos/mods/${logo}`, mod_meta, ids, tags, usedStatus, versionsTable)
+                    item.onclick = _ => openModal(name, description, `./logos/mods/${logo}`, mod_meta, ids, tags, usedStatus, versionsTable, status)
                 else
                     item.appendChild(nodeWithText('h4', description))
 
@@ -111,10 +111,12 @@ const buildMainVersion = (allVersions, connector) => {
     return start + connector + end
 }
 
-const openModal = (title, description, imgSrc, modMeta, ids, tags, usedStatus, versionsTable) => {
+const openModal = (title, description, imgSrc, modMeta, ids, tags, usedStatus, versionsTable, status) => {
     document.getElementById('modalTitle').innerText = title
     document.getElementById('modalDescription').innerText = description
     document.getElementById('modalImage').src = imgSrc
+
+    document.getElementById('rewrite_warning').hidden = status != 'Rewrite Queued'
 
     // 添加链接
     document.getElementById('githubLink').hidden = !ids.gh
