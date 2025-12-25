@@ -23,9 +23,9 @@
             "NeoForge": "All"
         },
         "1.20.4": {
-            "Fabric": "All",
+            "Fabric": "Ended",
             "Forge": "None",
-            "NeoForge": "All"
+            "NeoForge": "Ended"
         },
         "1.21.1": {
             "Fabric": "All",
