@@ -17,6 +17,10 @@
         "Mobs"
     ],
     "versions": {
+        "1.20.1": {
+            "Forge": "Planned",
+            "NeoForge": "Planned"
+        },
         "1.21.1": {
             "NeoForge": "All"
         }
