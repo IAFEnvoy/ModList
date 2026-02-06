@@ -1,6 +1,6 @@
 [
     {
-        "title": "Mod Porting",
+        "title": "Mod Porting & Integration",
         "display": {
             "logo": true,
             "status": true,
@@ -9,20 +9,10 @@
         "items": [
             "iceandfire",
             "iafpatcher",
+            "dsiafi",
+            "origins",
             "avaritia2",
-            "origins"
-        ]
-    },
-    {
-        "title": "Integration",
-        "display": {
-            "logo": true,
-            "status": true,
-            "modal": true
-        },
-        "items": [
-            "avaritia_delight",
-            "dsiafi"
+            "avaritia_integration"
         ]
     },
     {
@@ -97,7 +87,8 @@
             "tooltips",
             "hotkeys",
             "tsm",
-            "bgm"
+            "bgm",
+            "wamt"
         ]
     },
     {
@@ -137,7 +128,8 @@
             "rollable",
             "elb",
             "cetv",
-            "random_library"
+            "random_library",
+            "avaritia_delight"
         ]
     },
     {

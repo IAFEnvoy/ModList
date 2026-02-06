@@ -1,0 +1,30 @@
+{
+    "name": "Avaritia Integration",
+    "description": "This mod add capability between Re:Avaritia and many other mods.",
+    "logo": "avaritia_integration.webp",
+    "mod_meta": {
+        "id": "avaritia_integration",
+        "package": "committee.nova.mods.avaritia_integration",
+        "license": "MIT"
+    },
+    "ids": {
+        "gh": "Nova-Committee/Avaritia-Integration",
+        "cf": "1347675"
+    },
+    "tags": [
+        "Adventure",
+        "Equipment",
+        "Utility"
+    ],
+    "versions": {
+        "1.20.1": {
+            "Forge": "Maintaining",
+            "NeoForge": "Maintaining"
+        }
+    },
+    "status": "Maintaining",
+    "coop": [
+        "cnlimiter",
+        "cu6"
+    ]
+}

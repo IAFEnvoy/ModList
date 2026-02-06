@@ -1,21 +1,25 @@
 {
-    "name": "Server I18n API",
-    "description": "I18n implementation on server side only.",
-    "logo": "i18n.webp",
+    "name": "Where Are My Translations",
+    "description": "Export all untranslated keys to help developers translate.",
+    "logo": "wamt.webp",
     "mod_meta": {
-        "id": "server_i18n_api",
-        "package": "com.iafenvoy.server.i18n",
+        "id": "wamt",
+        "package": "com.iafenvoy.wamt",
         "license": "MIT"
     },
     "ids": {
-        "gh": "CodeOfArdonia/ServerI18nAPI",
-        "cf": "1278793",
-        "mr": "Cl2eyShu"
+        "gh": "IAFEnvoy/WhereAreMyTranslations",
+        "cf": "1454778",
+        "mr": "vCiJhmsF"
     },
     "tags": [
-        "Server Utility"
+        "Utility"
     ],
     "versions": {
+        "1.18.x": {
+            "Fabric": "All",
+            "Forge": "All"
+        },
         "1.19.x": {
             "Fabric": "All",
             "Forge": "All"
@@ -36,5 +40,5 @@
             "NeoForge": "All"
         }
     },
-    "status": "Low Priority"
+    "status": "Maintaining"
 }

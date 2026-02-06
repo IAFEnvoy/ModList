@@ -18,13 +18,13 @@
     ],
     "versions": {
         "1.15.2": {
-            "Forge": "All"
+            "Forge": "Ended"
         },
         "1.16.5": {
             "Forge": "All"
         },
         "1.17.1": {
-            "Forge": "All"
+            "Forge": "Ended"
         },
         "1.18.2": {
             "Forge": "All"
@@ -37,5 +37,5 @@
             "NeoForge": "Ended"
         }
     },
-    "status": "Rewrite Queued"
+    "status": "Low Priority"
 }
