@@ -1,0 +1,24 @@
+{
+    "name": "Random Oddities",
+    "description": "A collection of my unclassified ideas.",
+    "logo": "random_oddities.webp",
+    "mod_meta": {
+        "id": "random_oddities",
+        "package": "com.iafenvoy.random.oddities",
+        "license": "All Right Reserved"
+    },
+    "ids": {
+        "gh": "IAFEnvoy/RandomOddities",
+        "cf": "1395121",
+        "mr": "2MOibNr5"
+    },
+    "tags": [
+        "Utility"
+    ],
+    "versions": {
+        "1.21.1": {
+            "NeoForge": "All"
+        }
+    },
+    "status": "Developing"
+}

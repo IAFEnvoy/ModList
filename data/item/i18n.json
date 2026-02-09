@@ -25,7 +25,12 @@
             "Forge": "All",
             "NeoForge": "All"
         },
-        "1.20.2~1.20.6": {
+        "1.20.2~1.20.4": {
+            "Fabric": "All",
+            "Forge": "None",
+            "NeoForge": "None"
+        },
+        "1.20.5~1.20.6": {
             "Fabric": "All",
             "Forge": "None",
             "NeoForge": "All"
