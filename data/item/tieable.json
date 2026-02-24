@@ -18,15 +18,15 @@
     ],
     "versions": {
         "1.20.1": {
-            "Fabric": "All",
-            "Forge": "All",
-            "NeoForge": "All"
+            "Fabric": "Ended",
+            "Forge": "Ended",
+            "NeoForge": "Ended"
         },
         "1.21.1": {
-            "Fabric": "All",
+            "Fabric": "Ended",
             "Forge": "None",
-            "NeoForge": "All"
+            "NeoForge": "Ended"
         }
     },
-    "status": "Maintaining"
+    "status": "End Support"
 }

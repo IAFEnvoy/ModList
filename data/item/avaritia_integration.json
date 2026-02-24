@@ -18,8 +18,8 @@
     ],
     "versions": {
         "1.20.1": {
-            "Forge": "Maintaining",
-            "NeoForge": "Maintaining"
+            "Forge": "All",
+            "NeoForge": "All"
         }
     },
     "status": "Maintaining",
