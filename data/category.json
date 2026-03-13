@@ -55,7 +55,6 @@
             "throwable",
             "dont_hit_me",
             "economy",
-            "rs",
             "random_oddities"
         ]
     },
@@ -128,7 +127,8 @@
             "cetv",
             "random_library",
             "avaritia_delight",
-            "tieable"
+            "tieable",
+            "rs"
         ]
     },
     {

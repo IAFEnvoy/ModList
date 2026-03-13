@@ -12,7 +12,7 @@
             "Maintaining": "green",
             "Rewrite Queued": "darkcyan",
             "Low Priority": "magenta",
-            "Out of Maintainence": "red"
+            "End Support": "red"
         },
         "coop": "purple"
     },

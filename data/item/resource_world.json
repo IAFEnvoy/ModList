@@ -27,7 +27,12 @@
             "Fabric": "All",
             "Forge": "None",
             "NeoForge": "All"
+        },
+        "1.21.2~1.21.10": {
+            "Fabric": "Planned",
+            "Forge": "None",
+            "NeoForge": "Planned"
         }
     },
-    "status": "Rewrite Queued"
+    "status": "Maintaining"
 }
