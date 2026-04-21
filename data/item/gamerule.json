@@ -1,14 +1,14 @@
 {
-    "name": "The Ruler",
-    "description": "Set default game rules cross saves",
-    "logo": "ruler.webp",
+    "name": "GameRule Manager",
+    "description": "Enhance controls for gamerules",
+    "logo": "gamerule.webp",
     "mod_meta": {
-        "id": "the_ruler",
-        "package": "com.iafenvoy.ruler",
+        "id": "gamerule_manager",
+        "package": "com.iafenvoy.gamerule",
         "license": "LGPL-3.0"
     },
     "ids": {
-        "gh": "IAFEnvoy/TheRuler",
+        "gh": "IAFEnvoy/GameRuleManager",
         "cf": "1060896",
         "mr": "226Q16YJ"
     },
@@ -16,31 +16,26 @@
         "Utility"
     ],
     "versions": {
-        "1.20.1": {
+        "1.20(.1)": {
             "Fabric": "All",
             "Forge": "All",
             "NeoForge": "All"
         },
-        "1.20.4": {
+        "1.20.2~1.20.4": {
+            "Fabric": "All",
+            "Forge": "None",
+            "NeoForge": "None"
+        },
+        "1.20.5~1.20.6": {
             "Fabric": "All",
             "Forge": "None",
             "NeoForge": "All"
         },
-        "1.20.6": {
-            "Fabric": "All",
-            "Forge": "None",
-            "NeoForge": "All"
-        },
-        "1.21.1": {
-            "Fabric": "All",
-            "Forge": "None",
-            "NeoForge": "All"
-        },
-        "1.21.4~1.21.10": {
+        "1.21~1.21.10": {
             "Fabric": "All",
             "Forge": "None",
             "NeoForge": "All"
         }
     },
-    "status": "Rewrite Queued"
+    "status": "Low Priority"
 }

@@ -1,0 +1,41 @@
+{
+    "name": "Stop The Raid",
+    "description": "Expire the Raid using specific items.",
+    "logo": "stop_the_raid.webp",
+    "mod_meta": {
+        "id": "stop_the_raid",
+        "package": "com.iafenvoy.stoptheraid",
+        "license": "LGPL-3.0"
+    },
+    "ids": {
+        "gh": "IAFEnvoy/StopTheRaid",
+        "cf": "1490139",
+        "mr": "nRsYKlPW"
+    },
+    "tags": [
+        "Utility"
+    ],
+    "versions": {
+        "1.20(.1)": {
+            "Fabric": "All",
+            "Forge": "All",
+            "NeoForge": "All"
+        },
+        "1.20.2~1.20.4": {
+            "Fabric": "All",
+            "Forge": "None",
+            "NeoForge": "None"
+        },
+        "1.20.5~1.20.6": {
+            "Fabric": "All",
+            "Forge": "None",
+            "NeoForge": "All"
+        },
+        "1.21~1.21.10": {
+            "Fabric": "All",
+            "Forge": "None",
+            "NeoForge": "All"
+        }
+    },
+    "status": "Low Priority"
+}

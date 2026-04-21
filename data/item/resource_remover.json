@@ -1,0 +1,46 @@
+{
+    "name": "Resource Remover",
+    "description": "Prevent specific resources in resource packs and data packs from being loaded by the game.",
+    "logo": "resource_remover.webp",
+    "mod_meta": {
+        "id": "resource_remover",
+        "package": "com.iafenvoy.resource.remover",
+        "license": "LGPL-3.0"
+    },
+    "ids": {
+        "gh": "IAFEnvoy/ResourceRemover",
+        "cf": "1515884",
+        "mr": "OAnVMzFq"
+    },
+    "tags": [
+        "Utility"
+    ],
+    "versions": {
+        "1.19.3~1.19.4": {
+            "Fabric": "All",
+            "Forge": "All",
+            "NeoForge": "All"
+        },
+        "1.20(.1)": {
+            "Fabric": "All",
+            "Forge": "All",
+            "NeoForge": "All"
+        },
+        "1.20.2~1.20.4": {
+            "Fabric": "All",
+            "Forge": "None",
+            "NeoForge": "None"
+        },
+        "1.20.5~1.20.6": {
+            "Fabric": "All",
+            "Forge": "None",
+            "NeoForge": "All"
+        },
+        "1.21~1.21.10": {
+            "Fabric": "All",
+            "Forge": "None",
+            "NeoForge": "All"
+        }
+    },
+    "status": "Low Priority"
+}

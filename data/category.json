@@ -59,7 +59,7 @@
         ]
     },
     {
-        "title": "Server Utility",
+        "title": "Utility",
         "display": {
             "logo": true,
             "status": true,
@@ -69,11 +69,14 @@
             "resource",
             "resource_world",
             "random_command",
-            "ruler"
+            "gamerule",
+            "resource_remover",
+            "mixintrace",
+            "stop_the_raid"
         ]
     },
     {
-        "title": "Client Utility",
+        "title": "Client Side Utility",
         "display": {
             "logo": true,
             "status": true,

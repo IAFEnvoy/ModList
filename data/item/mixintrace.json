@@ -1,30 +1,21 @@
 {
-    "name": "Jupiter",
-    "description": "A powerful, auto sync config library.",
-    "logo": "jupiter.webp",
+    "name": "MixinTrace Reborn",
+    "description": "Adds a list of mixins in the stacktrace to crash reports.",
+    "logo": "mixintrace.webp",
     "mod_meta": {
-        "id": "jupiter",
-        "package": "com.iafenvoy.jupiter",
-        "license": "LGPL-3.0"
+        "id": "mixintrace",
+        "package": "com.iafenvoy.mixintrace",
+        "license": "MIT"
     },
     "ids": {
-        "gh": "IAFEnvoy/Jupiter",
-        "cf": "1072905",
-        "mr": "XbiLGMMU",
-        "wiki": "https://docs.iafenvoy.com/docs/library/jupiter"
+        "gh": "IAFEnvoy/MixinTrace-Reborn",
+        "cf": "1520456",
+        "mr": "Ok6FyXJ9"
     },
     "tags": [
         "Utility"
     ],
     "versions": {
-        "1.16.5": {
-            "Fabric": "Ended",
-            "Forge": "Ended"
-        },
-        "1.17.1": {
-            "Fabric": "Ended",
-            "Forge": "Ended"
-        },
         "1.18.x": {
             "Fabric": "All",
             "Forge": "All"
@@ -48,16 +39,16 @@
             "Forge": "None",
             "NeoForge": "All"
         },
-        "1.21~1.21.10": {
+        "1.21.x": {
             "Fabric": "All",
             "Forge": "None",
             "NeoForge": "All"
         },
-        "26.1": {
+        "26.1~26.1.2": {
             "Fabric": "All",
             "Forge": "None",
             "NeoForge": "All"
         }
     },
-    "status": "Maintaining"
+    "status": "Low Priority"
 }
